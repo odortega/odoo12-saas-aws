@@ -4,3 +4,254 @@
 2020-03-09 23:42:03,221 1483 INFO ? odoo: database: default@default:default 
 2020-03-09 23:42:03,521 1483 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
 2020-03-09 23:42:03,890 1483 INFO ? odoo.service.server: HTTP service (werkzeug) running on ip-172-31-10-159.us-east-2.compute.internal:1269 
+2020-03-10 06:10:14,641 9456 INFO ? odoo: Odoo version 12.0 
+2020-03-10 06:10:14,653 9456 INFO ? odoo: Using configuration file at /home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/config/odoo12.conf 
+2020-03-10 06:10:14,654 9456 INFO ? odoo: addons paths: ['/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/data/addons/12.0', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/extra-addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons'] 
+2020-03-10 06:10:14,655 9456 INFO ? odoo: database: odoo@default:default 
+2020-03-10 06:10:15,389 9456 CRITICAL ? odoo.modules.module: Couldn't load module base 
+2020-03-10 06:10:15,390 9456 CRITICAL ? odoo.modules.module: No module named 'reportlab' 
+2020-03-10 06:10:15,391 9456 ERROR ? odoo.service.server: Failed to load server-wide module `base`. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 5, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/__init__.py", line 12, in <module>
+    from . import ir_actions_report
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/ir_actions_report.py", line 25, in <module>
+    from reportlab.graphics.barcode import createBarcodeDrawing
+ModuleNotFoundError: No module named 'reportlab'
+2020-03-10 06:10:15,618 9456 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2020-03-10 06:10:15,619 9456 CRITICAL ? odoo.modules.module: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands. 
+2020-03-10 06:10:15,620 9456 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 656, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 626, in _load_backward_compatible
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 4, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/__init__.py", line 4, in <module>
+    from . import main, pivot
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/main.py", line 58, in <module>
+    loader = jinja2.PackageLoader('odoo.addons.web', "views")
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3/lib/python3.6/site-packages/jinja2/loaders.py", line 290, in __init__
+    " PackageLoader understands." % package_name
+ValueError: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands.
+2020-03-10 06:10:15,701 9456 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:1269 
+2020-03-10 06:10:23,992 9456 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-10 06:10:23,992 9456 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-10 06:11:02,349 9554 INFO ? odoo: Odoo version 12.0 
+2020-03-10 06:11:02,355 9554 INFO ? odoo: Using configuration file at /home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/config/odoo12.conf 
+2020-03-10 06:11:02,355 9554 INFO ? odoo: addons paths: ['/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/data/addons/12.0', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/extra-addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons'] 
+2020-03-10 06:11:02,357 9554 INFO ? odoo: database: odoo@default:default 
+2020-03-10 06:11:03,807 9554 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-10 06:11:05,552 9554 CRITICAL ? odoo.modules.module: Couldn't load module base 
+2020-03-10 06:11:05,553 9554 CRITICAL ? odoo.modules.module: No module named 'html2text' 
+2020-03-10 06:11:05,553 9554 ERROR ? odoo.service.server: Failed to load server-wide module `base`. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 5, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/__init__.py", line 22, in <module>
+    from . import ir_mail_server
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/ir_mail_server.py", line 16, in <module>
+    import html2text
+ModuleNotFoundError: No module named 'html2text'
+2020-03-10 06:11:05,667 9554 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2020-03-10 06:11:05,667 9554 CRITICAL ? odoo.modules.module: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands. 
+2020-03-10 06:11:05,667 9554 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 656, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 626, in _load_backward_compatible
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 4, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/__init__.py", line 4, in <module>
+    from . import main, pivot
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/main.py", line 58, in <module>
+    loader = jinja2.PackageLoader('odoo.addons.web', "views")
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3/lib/python3.6/site-packages/jinja2/loaders.py", line 290, in __init__
+    " PackageLoader understands." % package_name
+ValueError: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands.
+2020-03-10 06:11:05,903 9554 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:1269 
+2020-03-10 06:11:48,211 9554 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-10 06:11:48,266 9554 INFO ? odoo.http: Generating nondb routing 
+2020-03-10 06:11:48,296 9554 INFO ? werkzeug: 127.0.0.1 - - [10/Mar/2020 06:11:48] "GET / HTTP/1.1" 404 - 1 0.005 0.070
+2020-03-10 06:11:49,006 9554 INFO ? werkzeug: 127.0.0.1 - - [10/Mar/2020 06:11:49] "GET /favicon.ico HTTP/1.1" 404 - 1 0.013 0.022
+2020-03-10 06:12:18,735 9554 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-10 06:12:18,736 9554 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-10 06:13:29,966 9897 INFO ? odoo: Odoo version 12.0 
+2020-03-10 06:13:30,036 9897 INFO ? odoo: Using configuration file at /home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/config/odoo12.conf 
+2020-03-10 06:13:30,037 9897 INFO ? odoo: addons paths: ['/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/data/addons/12.0', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/extra-addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons'] 
+2020-03-10 06:13:30,039 9897 INFO ? odoo: database: odoo@default:default 
+2020-03-10 06:13:31,550 9897 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-10 06:13:32,163 9897 CRITICAL ? odoo.modules.module: Couldn't load module base 
+2020-03-10 06:13:32,163 9897 CRITICAL ? odoo.modules.module: No module named 'html2text' 
+2020-03-10 06:13:32,163 9897 ERROR ? odoo.service.server: Failed to load server-wide module `base`. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 5, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/__init__.py", line 22, in <module>
+    from . import ir_mail_server
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/ir_mail_server.py", line 16, in <module>
+    import html2text
+ModuleNotFoundError: No module named 'html2text'
+2020-03-10 06:13:32,262 9897 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2020-03-10 06:13:32,263 9897 CRITICAL ? odoo.modules.module: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands. 
+2020-03-10 06:13:32,263 9897 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 656, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 626, in _load_backward_compatible
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 4, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/__init__.py", line 4, in <module>
+    from . import main, pivot
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/main.py", line 58, in <module>
+    loader = jinja2.PackageLoader('odoo.addons.web', "views")
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3/lib/python3.6/site-packages/jinja2/loaders.py", line 290, in __init__
+    " PackageLoader understands." % package_name
+ValueError: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands.
+2020-03-10 06:13:32,379 9897 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:1269 
+2020-03-10 06:13:39,551 9897 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-10 06:13:39,594 9897 INFO ? odoo.http: Generating nondb routing 
+2020-03-10 06:13:39,605 9897 INFO ? werkzeug: 127.0.0.1 - - [10/Mar/2020 06:13:39] "GET / HTTP/1.1" 404 - 1 0.006 0.043
+2020-03-10 06:20:48,773 9897 INFO ? werkzeug: 127.0.0.1 - - [10/Mar/2020 06:20:48] "GET / HTTP/1.1" 404 - 1 0.006 0.036
+2020-03-10 06:23:05,757 9897 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-10 06:23:05,758 9897 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-10 06:24:31,851 10480 INFO ? odoo: Odoo version 12.0 
+2020-03-10 06:24:31,853 10480 INFO ? odoo: Using configuration file at /home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/config/odoo12.conf 
+2020-03-10 06:24:31,853 10480 INFO ? odoo: addons paths: ['/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/data/addons/12.0', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/extra-addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons'] 
+2020-03-10 06:24:31,854 10480 INFO ? odoo: database: odoo@default:default 
+2020-03-10 06:24:31,952 10480 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2020-03-10 06:24:31,952 10480 CRITICAL ? odoo.modules.module: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands. 
+2020-03-10 06:24:31,952 10480 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 656, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 626, in _load_backward_compatible
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 4, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/__init__.py", line 4, in <module>
+    from . import main, pivot
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/main.py", line 58, in <module>
+    loader = jinja2.PackageLoader('odoo.addons.web', "views")
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3/lib/python3.6/site-packages/jinja2/loaders.py", line 290, in __init__
+    " PackageLoader understands." % package_name
+ValueError: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands.
+2020-03-10 06:24:33,172 10480 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-10 06:24:33,702 10480 CRITICAL ? odoo.modules.module: Couldn't load module base 
+2020-03-10 06:24:33,702 10480 CRITICAL ? odoo.modules.module: No module named 'html2text' 
+2020-03-10 06:24:33,703 10480 ERROR ? odoo.service.server: Failed to load server-wide module `base`. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 5, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/__init__.py", line 22, in <module>
+    from . import ir_mail_server
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/ir_mail_server.py", line 16, in <module>
+    import html2text
+ModuleNotFoundError: No module named 'html2text'
+2020-03-10 06:24:33,785 10480 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:1269 
+2020-03-10 06:31:05,515 10480 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-10 06:31:05,515 10480 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-10 06:34:07,854 11048 INFO ? odoo: Odoo version 12.0 
+2020-03-10 06:34:07,856 11048 INFO ? odoo: Using configuration file at /home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/config/odoo12.conf 
+2020-03-10 06:34:07,856 11048 INFO ? odoo: addons paths: ['/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/data/addons/12.0', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/extra-addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons', '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons'] 
+2020-03-10 06:34:07,858 11048 INFO ? odoo: database: odoo@default:default 
+2020-03-10 06:34:09,212 11048 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-10 06:34:09,871 11048 CRITICAL ? odoo.modules.module: Couldn't load module base 
+2020-03-10 06:34:09,873 11048 CRITICAL ? odoo.modules.module: No module named 'html2text' 
+2020-03-10 06:34:09,881 11048 ERROR ? odoo.service.server: Failed to load server-wide module `base`. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 5, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/__init__.py", line 22, in <module>
+    from . import ir_mail_server
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/addons/base/models/ir_mail_server.py", line 16, in <module>
+    import html2text
+ModuleNotFoundError: No module named 'html2text'
+2020-03-10 06:34:10,054 11048 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2020-03-10 06:34:10,054 11048 CRITICAL ? odoo.modules.module: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands. 
+2020-03-10 06:34:10,055 11048 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/service/server.py", line 1063, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 368, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 656, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 626, in _load_backward_compatible
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/odoo/modules/module.py", line 82, in load_module
+    exec(open(modfile, 'rb').read(), new_mod.__dict__)
+  File "<string>", line 4, in <module>
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/__init__.py", line 4, in <module>
+    from . import main, pivot
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/odoosrc/12.0/odoo/addons/web/controllers/main.py", line 58, in <module>
+    loader = jinja2.PackageLoader('odoo.addons.web', "views")
+  File "/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3/lib/python3.6/site-packages/jinja2/loaders.py", line 290, in __init__
+    " PackageLoader understands." % package_name
+ValueError: The 'odoo.addons.web' package was not installed in a way that PackageLoader understands.
+2020-03-10 06:34:10,199 11048 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:1269 
+2020-03-10 06:35:01,390 11048 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-10 06:35:01,597 11048 INFO ? odoo.http: Generating nondb routing 
+2020-03-10 06:35:01,605 11048 INFO ? werkzeug: 127.0.0.1 - - [10/Mar/2020 06:35:01] "GET / HTTP/1.1" 404 - 1 0.005 0.205
+2020-03-10 06:35:18,279 11048 INFO ? werkzeug: 127.0.0.1 - - [10/Mar/2020 06:35:18] "GET / HTTP/1.1" 404 - 1 0.008 0.016
+2020-03-10 06:35:50,219 11048 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-10 06:35:50,219 11048 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 

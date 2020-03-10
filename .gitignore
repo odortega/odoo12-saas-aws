@@ -1,0 +1,6 @@
+*~
+*.pyc
+*.sess
+*.deb
+odoosrc/12.0/odoo/odoo/tools/config.py
+.DS_Store
