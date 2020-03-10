@@ -1,0 +1,102 @@
+2020-02-20 12:49:14,298 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 12:49:14,313 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 12:49:14,324 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 12:58:58,037 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 12:58:58,048 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 12:58:58,058 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:09:08,653 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:09:08,664 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:09:08,674 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:10:09,749 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2020-02-20 13:10:09,841 1433 INFO comercio-v1 odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2020-02-20 13:10:09,890 1433 INFO comercio-v1 odoo.addons.base.models.ir_autovacuum: GC'd 0 user log entries 
+2020-02-20 13:10:09,894 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2020-02-20 13:10:09,910 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_attachment: filestore gc 15 checked, 3 removed 
+2020-02-20 13:10:09,957 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_autovacuum: GC'd 1 user log entries 
+2020-02-20 13:10:09,961 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2020-02-20 13:10:10,065 1433 INFO colanta-v1 odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2020-02-20 13:10:10,107 1433 INFO colanta-v1 odoo.models.unlink: User #1 deleted stock.quantity.history records with IDs: [2] 
+2020-02-20 13:10:10,129 1433 INFO colanta-v1 odoo.addons.base.models.ir_autovacuum: GC'd 1 user log entries 
+2020-02-20 13:11:11,164 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 13:11:11,180 1433 INFO comercio-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 13:11:11,185 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 13:11:11,200 1433 INFO comercio-v0-pos odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 13:11:11,204 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 13:11:11,219 1433 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 13:12:12,288 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-20 13:12:12,301 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-20 13:12:12,309 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-20 13:12:12,317 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2020-02-20 13:12:12,326 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-20 13:12:12,336 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-20 13:12:12,345 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-20 13:12:12,353 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2020-02-20 13:12:12,362 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-20 13:12:12,372 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-20 13:12:12,380 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-20 13:12:12,389 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2020-02-20 13:19:16,030 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:19:16,041 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:19:16,052 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:29:16,661 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:29:16,672 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:29:16,682 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:38:39,940 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2020-02-20 13:38:39,950 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2020-02-20 13:38:39,961 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2020-02-20 13:39:17,266 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:39:17,275 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2020-02-20 13:39:17,284 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:39:17,293 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2020-02-20 13:39:17,303 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:39:17,311 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2020-02-20 13:40:42,100 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2020-02-20 13:40:42,119 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 13:40:42,135 1433 INFO comercio-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 13:40:42,140 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 13:40:42,157 1433 INFO comercio-v0-pos odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 13:40:42,160 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2020-02-20 13:40:42,184 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 13:40:42,200 1433 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 13:40:42,203 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2020-02-20 13:49:17,958 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:49:17,969 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:49:17,980 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:59:01,254 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:59:01,265 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 13:59:01,275 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:09:11,891 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:09:11,902 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:09:11,912 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:11:14,051 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 14:11:14,067 1433 INFO comercio-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 14:11:14,071 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 14:11:14,086 1433 INFO comercio-v0-pos odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 14:11:14,090 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 14:11:14,108 1433 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 14:12:15,177 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-20 14:12:15,187 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-20 14:12:15,195 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-20 14:12:15,205 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-20 14:12:15,214 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-20 14:12:15,223 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-20 14:12:15,232 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-20 14:12:15,241 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-20 14:12:15,249 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-20 14:19:19,711 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:19:19,722 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:19:19,731 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:29:20,320 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:29:20,330 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:29:20,340 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:39:20,988 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:39:20,998 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:39:21,009 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-20 14:40:44,972 1433 INFO comercio-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 14:40:44,988 1433 INFO comercio-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 14:40:44,992 1433 INFO comercio-v0-pos odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 14:40:45,017 1433 INFO comercio-v0-pos odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 14:40:45,022 1433 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-20 14:40:45,040 1433 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-20 14:45:56,084 1433 INFO ? odoo.service.server: Initiating shutdown 
+2020-02-20 14:45:56,084 1433 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 

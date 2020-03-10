@@ -1,0 +1,6 @@
+2020-03-09 23:42:03,220 1483 INFO ? odoo: Odoo version 12.0 
+2020-03-09 23:42:03,221 1483 INFO ? odoo: Using configuration file at /opt/config/odoo12.conf 
+2020-03-09 23:42:03,221 1483 INFO ? odoo: addons paths: ['/opt/odoosrc/data/addons/12.0', '/opt/odoosrc/extra-addons', '/opt/odoosrc/12.0/odoo/addons', '/opt/odoosrc/12.0/odoo/odoo/addons'] 
+2020-03-09 23:42:03,221 1483 INFO ? odoo: database: default@default:default 
+2020-03-09 23:42:03,521 1483 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-09 23:42:03,890 1483 INFO ? odoo.service.server: HTTP service (werkzeug) running on ip-172-31-10-159.us-east-2.compute.internal:1269 

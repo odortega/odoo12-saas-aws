@@ -1,0 +1,355 @@
+2020-02-26 14:30:50,767 1453 INFO ? odoo: Odoo version 12.0 
+2020-02-26 14:30:50,769 1453 INFO ? odoo: Using configuration file at /opt/config/odoo12.conf 
+2020-02-26 14:30:50,769 1453 INFO ? odoo: addons paths: ['/opt/odoosrc/data/addons/12.0', '/opt/odoosrc/extra-addons', '/opt/odoosrc/12.0/odoo/addons', '/opt/odoosrc/12.0/odoo/odoo/addons'] 
+2020-02-26 14:30:50,769 1453 INFO ? odoo: database: default@default:default 
+2020-02-26 14:30:50,956 1453 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-02-26 14:30:51,293 1453 INFO ? odoo.service.server: HTTP service (werkzeug) running on ip-172-31-10-159.us-east-2.compute.internal:1269 
+2020-02-26 14:39:49,384 1453 INFO ? odoo.http: HTTP Configuring static files 
+2020-02-26 14:39:49,464 1453 INFO colanta-v0-datos-prueba3 odoo.modules.loading: loading 1 modules... 
+2020-02-26 14:39:49,478 1453 INFO colanta-v0-datos-prueba3 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-02-26 14:39:49,561 1453 INFO colanta-v0-datos-prueba3 odoo.modules.loading: loading 61 modules... 
+2020-02-26 14:39:49,932 1453 INFO colanta-v0-datos-prueba3 odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it. 
+2020-02-26 14:39:50,506 1453 INFO colanta-v0-datos-prueba3 odoo.modules.loading: 61 modules loaded in 0.94s, 0 queries 
+2020-02-26 14:39:51,116 1453 INFO colanta-v0-datos-prueba3 odoo.fields: Field stock.production.lot.product_uom_id depends on non-stored field product.product.uom_id 
+2020-02-26 14:39:51,116 1453 INFO colanta-v0-datos-prueba3 odoo.fields: Field stock.picking.move_ids_without_package depends on non-stored field stock.move.picking_type_entire_packs 
+2020-02-26 14:39:51,117 1453 INFO colanta-v0-datos-prueba3 odoo.fields: Field stock.picking.move_line_ids_without_package depends on non-stored field stock.move.line.picking_type_entire_packs 
+2020-02-26 14:39:51,137 1453 INFO colanta-v0-datos-prueba3 odoo.fields: Field purchase.order.line.product_uom_qty depends on non-stored field product.product.uom_id 
+2020-02-26 14:39:51,141 1453 INFO colanta-v0-datos-prueba3 odoo.modules.loading: Modules loaded. 
+2020-02-26 14:39:51,156 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_http: Generating routing map 
+2020-02-26 14:39:52,235 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 14:39:52,289 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 14:39:52,341 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 14:39:52,353 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 14:39:52,377 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 14:39:52,402 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 14:39:52,423 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2020-02-26 14:39:52,542 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2020-02-26 14:39:52,719 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2020-02-26 14:39:52,781 1453 INFO colanta-v0-datos-prueba3 werkzeug: 181.51.32.189 - - [26/Feb/2020 14:39:52] "GET / HTTP/1.1" 200 - 814 0.868 2.528
+2020-02-26 14:39:52,873 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_autovacuum: GC'd 0 user log entries 
+2020-02-26 14:39:52,875 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2020-02-26 14:39:52,886 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2020-02-26 14:39:52,899 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2020-02-26 14:39:54,857 1453 INFO colanta-v0-datos-prueba3 werkzeug: 181.51.32.189 - - [26/Feb/2020 14:39:54] "GET /web/webclient/locale/es_CO HTTP/1.1" 200 - 1 0.001 0.005
+2020-02-26 14:39:54,878 1453 INFO colanta-v0-datos-prueba3 werkzeug: 181.51.32.189 - - [26/Feb/2020 14:39:54] "POST /web/dataset/call HTTP/1.1" 200 - 12 0.014 0.009
+2020-02-26 14:39:54,907 1453 INFO colanta-v0-datos-prueba3 werkzeug: 181.51.32.189 - - [26/Feb/2020 14:39:54] "POST /website/translations HTTP/1.1" 200 - 16 0.043 0.015
+2020-02-26 14:39:55,364 1453 INFO colanta-v0-datos-prueba3 werkzeug: 181.51.32.189 - - [26/Feb/2020 14:39:55] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 9 0.006 0.005
+2020-02-26 14:40:52,923 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 14:40:52,940 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 14:48:53,311 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 14:58:53,936 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 15:08:54,480 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 15:10:54,554 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 15:10:54,570 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 15:11:34,091 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 15:11:34,101 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 15:11:34,109 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 15:18:55,018 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 15:28:52,042 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 15:38:56,242 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 15:40:56,322 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 15:40:56,339 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 15:48:56,812 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 15:58:57,427 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 16:08:58,038 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 16:10:58,170 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 16:10:58,185 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 16:11:36,340 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 16:11:36,350 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 16:11:36,358 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 16:18:58,492 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 16:28:54,430 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 16:38:59,732 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 16:40:59,825 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 16:40:59,840 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 16:49:00,336 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 16:59:00,846 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 17:07:10,362 1453 INFO colanta-v0-datos-prueba3 werkzeug: 181.51.32.189 - - [26/Feb/2020 17:07:10] "POST /website/translations HTTP/1.1" 200 - 19 0.011 0.070
+2020-02-26 17:09:01,438 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 17:10:37,765 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 17:10:37,781 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 17:11:38,847 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 17:11:38,857 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 17:11:38,865 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 17:19:02,032 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 17:28:56,878 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 17:39:03,033 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 17:41:03,124 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 17:41:03,141 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 17:49:03,603 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 17:59:04,228 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 18:09:04,851 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 18:10:40,370 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 18:10:40,386 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 18:11:41,452 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 18:11:41,462 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 18:11:41,470 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 18:19:05,475 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 18:28:59,480 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 18:39:06,554 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 18:41:06,686 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 18:41:06,701 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 18:49:07,196 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 18:59:07,764 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 19:09:08,387 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 19:10:42,882 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 19:10:42,898 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 19:11:43,963 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 19:11:43,973 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 19:11:43,981 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 19:18:51,379 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 19:29:02,013 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 19:39:10,185 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 19:41:10,316 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 19:41:10,331 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 19:49:10,799 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 19:59:11,300 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 20:09:11,911 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 20:10:45,328 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 20:10:45,344 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 20:11:46,409 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 20:11:46,419 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 20:11:46,427 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 20:18:53,873 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 20:29:04,502 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 20:39:13,724 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 20:41:13,857 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 20:41:13,872 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 20:49:14,258 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 20:59:14,861 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 21:09:15,485 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 21:10:47,864 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 21:10:47,880 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 21:11:48,946 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 21:11:48,956 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 21:11:48,964 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 21:18:56,410 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 21:29:07,044 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 21:39:17,305 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 21:41:17,437 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 21:41:17,453 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 21:49:17,927 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 21:59:18,492 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 22:09:19,115 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 22:10:50,402 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 22:10:50,417 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 22:11:51,480 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 22:11:51,491 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 22:11:51,499 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 22:18:58,944 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 22:29:09,476 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 22:39:20,054 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 22:41:21,052 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 22:41:21,068 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 22:49:21,506 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 22:59:22,131 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 23:09:22,630 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 23:10:52,942 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 23:10:52,957 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 23:11:22,762 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-26 23:11:54,023 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-26 23:11:54,032 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-26 23:19:01,429 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 23:29:12,051 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 23:39:22,667 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 23:41:24,456 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-26 23:41:24,471 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-26 23:49:24,966 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-26 23:59:25,591 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 00:08:53,413 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 00:10:55,547 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 00:10:55,563 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 00:11:26,283 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 00:11:26,293 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 00:11:26,301 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 00:19:03,968 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 00:29:14,567 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 00:39:25,202 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 00:41:27,336 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 00:41:27,351 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 00:49:28,423 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 00:59:28,973 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 01:08:55,980 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 01:10:58,114 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 01:10:58,130 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 01:11:29,717 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 01:11:29,727 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 01:11:29,735 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 01:19:06,576 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 01:29:17,211 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 01:39:27,804 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 01:41:29,938 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 01:41:29,954 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 01:49:31,682 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 01:59:32,308 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 02:08:58,645 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 02:11:00,779 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 02:11:00,795 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 02:11:33,056 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 02:11:33,066 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 02:11:33,074 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 02:19:09,241 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 02:29:19,846 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 02:39:30,480 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 02:41:32,614 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 02:41:32,629 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 02:49:35,289 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 02:59:35,882 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 03:09:01,065 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 03:11:03,191 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 03:11:03,206 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 03:11:36,625 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 03:11:36,635 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 03:11:36,643 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 03:19:11,705 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 03:29:22,316 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 03:39:32,904 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 03:40:38,378 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 03:40:38,394 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 03:49:38,901 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 03:58:53,085 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 04:09:03,707 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 04:10:40,103 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 04:10:40,119 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 04:11:40,184 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 04:11:40,194 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 04:11:40,202 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 04:19:14,288 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 04:29:24,867 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 04:39:35,453 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 04:40:41,994 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 04:40:42,010 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 04:49:42,553 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 04:58:55,640 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 05:09:06,217 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 05:10:43,847 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 05:10:43,862 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 05:11:43,927 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 05:11:43,937 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 05:11:43,945 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 05:19:16,763 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 05:29:27,311 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 05:39:37,917 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 05:40:38,989 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 05:40:39,004 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 05:49:46,128 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 05:58:58,061 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 06:09:08,691 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 06:10:47,205 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 06:10:47,221 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 06:11:47,286 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 06:11:47,296 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 06:11:47,304 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 06:19:19,326 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 06:29:29,924 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 06:39:40,543 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 06:40:41,615 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 06:40:41,632 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 06:49:49,533 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 06:59:00,706 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 07:09:11,296 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 07:10:50,800 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 07:10:50,815 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 07:11:50,880 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 07:11:50,890 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 07:11:50,898 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 07:18:51,291 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 07:28:51,915 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 07:38:52,406 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 07:40:44,205 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 07:40:44,220 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 07:48:52,657 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 07:58:53,646 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 08:08:54,182 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 08:10:54,314 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 08:10:54,330 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 08:11:54,395 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 08:11:54,405 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 08:11:54,414 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 08:18:54,741 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 08:28:55,362 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 08:38:55,941 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 08:40:46,581 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 08:40:46,596 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 08:48:55,100 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 08:58:57,168 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 09:08:57,746 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 09:10:57,878 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 09:10:57,894 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 09:11:57,958 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 09:11:57,969 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 09:11:57,977 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 09:18:58,415 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 09:28:58,984 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 09:38:59,542 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 09:40:49,043 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 09:40:49,059 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 09:48:57,562 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 09:59:00,559 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 10:09:01,184 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 10:11:01,317 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 10:11:01,333 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 10:11:20,855 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 10:12:01,397 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 10:12:01,407 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 10:19:01,846 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 10:29:02,377 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 10:39:02,868 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 10:40:51,442 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 10:40:51,458 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 10:48:59,913 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 10:59:04,101 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 11:09:04,725 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 11:11:04,858 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 11:11:04,873 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 11:11:23,170 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 11:12:04,939 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 11:12:04,948 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 11:19:05,375 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 11:29:05,970 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 11:38:51,730 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 11:40:53,862 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 11:40:53,877 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 11:49:02,381 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 11:59:07,697 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 12:09:08,321 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 12:11:08,454 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 12:11:08,469 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 12:11:25,751 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 12:11:25,761 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 12:11:25,769 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 12:19:08,922 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 12:29:09,546 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 12:38:54,316 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 12:40:56,450 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 12:40:56,466 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 12:49:04,969 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 12:59:11,267 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 13:09:11,812 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 13:10:11,883 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2020-02-27 13:10:11,895 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2020-02-27 13:10:11,940 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_autovacuum: GC'd 0 user log entries 
+2020-02-27 13:11:12,004 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 13:11:12,020 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 13:11:28,256 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 13:11:28,266 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 13:11:28,275 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 13:11:28,282 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2020-02-27 13:19:12,516 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 13:29:13,108 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 13:38:56,851 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 13:38:56,860 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2020-02-27 13:38:56,868 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2020-02-27 13:40:59,001 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2020-02-27 13:40:59,026 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 13:40:59,041 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 13:49:07,542 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 13:59:14,716 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 14:09:15,340 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 14:11:15,473 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2020-02-27 14:11:15,488 1453 INFO colanta-v0-datos-prueba3 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2020-02-27 14:11:30,875 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2020-02-27 14:11:30,886 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2020-02-27 14:11:30,895 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2020-02-27 14:19:15,928 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2020-02-27 14:29:16,507 1453 INFO colanta-v0-datos-prueba3 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 

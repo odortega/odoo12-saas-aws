@@ -1,0 +1,627 @@
+2019-12-19 15:14:38,456 1487 INFO ? odoo: Odoo version 12.0 
+2019-12-19 15:14:38,457 1487 INFO ? odoo: Using configuration file at /opt/config/odoo12.conf 
+2019-12-19 15:14:38,457 1487 INFO ? odoo: addons paths: ['/opt/odoosrc/data/addons/12.0', '/opt/odoosrc/extra-addons', '/opt/odoosrc/12.0/odoo/addons', '/opt/odoosrc/12.0/odoo/odoo/addons'] 
+2019-12-19 15:14:38,457 1487 INFO ? odoo: database: default@default:default 
+2019-12-19 15:14:38,691 1487 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2019-12-19 15:14:39,158 1487 INFO ? odoo.service.server: HTTP service (werkzeug) running on ip-172-31-10-159.us-east-2.compute.internal:1269 
+2019-12-19 15:38:58,883 1487 INFO ? odoo.http: HTTP Configuring static files 
+2019-12-19 15:38:58,980 1487 INFO comercio-v2 odoo.modules.loading: loading 1 modules... 
+2019-12-19 15:38:58,993 1487 INFO comercio-v2 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2019-12-19 15:38:59,078 1487 INFO comercio-v2 odoo.modules.loading: loading 59 modules... 
+2019-12-19 15:38:59,471 1487 INFO comercio-v2 odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it. 
+2019-12-19 15:39:00,059 1487 INFO comercio-v2 odoo.modules.loading: 59 modules loaded in 0.98s, 0 queries 
+2019-12-19 15:39:00,641 1487 INFO comercio-v2 odoo.fields: Field stock.production.lot.product_uom_id depends on non-stored field product.product.uom_id 
+2019-12-19 15:39:00,642 1487 INFO comercio-v2 odoo.fields: Field stock.picking.move_ids_without_package depends on non-stored field stock.move.picking_type_entire_packs 
+2019-12-19 15:39:00,642 1487 INFO comercio-v2 odoo.fields: Field stock.picking.move_line_ids_without_package depends on non-stored field stock.move.line.picking_type_entire_packs 
+2019-12-19 15:39:00,662 1487 INFO comercio-v2 odoo.fields: Field purchase.order.line.product_uom_qty depends on non-stored field product.product.uom_id 
+2019-12-19 15:39:00,665 1487 INFO comercio-v2 odoo.modules.loading: Modules loaded. 
+2019-12-19 15:39:00,680 1487 INFO comercio-v2 odoo.addons.base.models.ir_http: Generating routing map 
+2019-12-19 15:39:02,088 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:39:02] "GET / HTTP/1.1" 200 - 744 0.829 2.374
+2019-12-19 15:39:04,537 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 15:39:04,553 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 15:39:04,563 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 15:39:04,590 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 15:39:04,594 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 15:39:04,610 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2019-12-19 15:39:04,708 1487 INFO comercio-v2 odoo.addons.base.models.ir_attachment: filestore gc 6 checked, 3 removed 
+2019-12-19 15:39:04,760 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:39:04] "POST /website/translations HTTP/1.1" 200 - 19 0.103 0.017
+2019-12-19 15:39:04,895 1487 INFO comercio-v2 odoo.addons.base.models.ir_autovacuum: GC'd 0 user log entries 
+2019-12-19 15:39:04,897 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2019-12-19 15:39:04,907 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2019-12-19 15:39:04,917 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2019-12-19 15:39:05,037 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 15:39:05,048 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2019-12-19 15:39:05,570 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:39:05] "POST /web/dataset/call HTTP/1.1" 200 - 17 0.011 0.010
+2019-12-19 15:39:05,590 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:39:05] "GET /web/image/res.company/1/logo?unique=99c31df HTTP/1.1" 200 - 18 0.014 0.017
+2019-12-19 15:39:05,649 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:39:05] "GET /web/webclient/locale/es_CO HTTP/1.1" 200 - 1 0.000 0.005
+2019-12-19 15:39:06,255 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:39:06] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 9 0.004 0.005
+2019-12-19 15:40:40,606 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 15:40:40,625 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 15:42:05,411 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:42:05] "GET /web/session/logout?redirect=/ HTTP/1.1" 303 - 2 0.001 0.004
+2019-12-19 15:42:07,005 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:42:07] "GET / HTTP/1.1" 200 - 326 0.138 0.404
+2019-12-19 15:42:08,534 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:42:08] "POST /website/translations HTTP/1.1" 200 - 12 0.007 0.014
+2019-12-19 15:42:43,230 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:42:43] "GET / HTTP/1.1" 200 - 47 0.017 0.029
+2019-12-19 15:42:43,933 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:42:43] "POST /website/translations HTTP/1.1" 200 - 12 0.007 0.015
+2019-12-19 15:43:15,621 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:43:15] "GET / HTTP/1.1" 200 - 31 0.011 0.023
+2019-12-19 15:43:18,844 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:43:18] "POST /website/translations HTTP/1.1" 200 - 12 0.009 0.014
+2019-12-19 15:43:54,908 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:43:54] "GET / HTTP/1.1" 200 - 31 0.011 0.023
+2019-12-19 15:43:55,469 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:43:55] "POST /website/translations HTTP/1.1" 200 - 12 0.007 0.014
+2019-12-19 15:44:04,086 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:04] "GET / HTTP/1.1" 200 - 31 0.011 0.021
+2019-12-19 15:44:04,344 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:04] "POST /website/translations HTTP/1.1" 200 - 12 0.007 0.014
+2019-12-19 15:44:06,612 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:06] "GET /web/login HTTP/1.1" 200 - 67 0.037 0.059
+2019-12-19 15:44:06,902 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:06] "POST /website/translations HTTP/1.1" 200 - 12 0.007 0.014
+2019-12-19 15:44:13,197 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/database/selector HTTP/1.1" 200 - 34 0.705 0.193
+2019-12-19 15:44:13,395 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2019-12-19 15:44:13,528 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2019-12-19 15:44:13,538 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:13,564 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:13,568 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:13,821 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:13,871 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:13,871 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:13] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,377 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,379 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,379 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,693 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,797 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,798 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,799 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:14,988 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:14] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2019-12-19 15:44:15,040 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:15] "GET /web/static/src/img/logo2.png HTTP/1.1" 200 - - - -
+2019-12-19 15:44:22,007 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:22] "GET /web?db=colanta-v0 HTTP/1.1" 302 - 1 0.000 0.002
+2019-12-19 15:44:22,129 1487 INFO ? odoo.http: Generating nondb routing 
+2019-12-19 15:44:22,140 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:22] "GET /web?db=colanta-v0 HTTP/1.1" 302 - 1 0.002 0.015
+2019-12-19 15:44:22,422 1487 INFO colanta-v0 odoo.modules.loading: loading 1 modules... 
+2019-12-19 15:44:22,434 1487 INFO colanta-v0 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2019-12-19 15:44:22,463 1487 INFO colanta-v0 odoo.modules.loading: loading 58 modules... 
+2019-12-19 15:44:22,555 1487 INFO colanta-v0 odoo.modules.loading: 58 modules loaded in 0.09s, 0 queries 
+2019-12-19 15:44:22,726 1487 INFO colanta-v0 odoo.fields: Field stock.production.lot.product_uom_id depends on non-stored field product.product.uom_id 
+2019-12-19 15:44:22,727 1487 INFO colanta-v0 odoo.fields: Field stock.picking.move_ids_without_package depends on non-stored field stock.move.picking_type_entire_packs 
+2019-12-19 15:44:22,727 1487 INFO colanta-v0 odoo.fields: Field stock.picking.move_line_ids_without_package depends on non-stored field stock.move.line.picking_type_entire_packs 
+2019-12-19 15:44:22,746 1487 INFO colanta-v0 odoo.fields: Field purchase.order.line.product_uom_qty depends on non-stored field product.product.uom_id 
+2019-12-19 15:44:22,750 1487 INFO colanta-v0 odoo.modules.loading: Modules loaded. 
+2019-12-19 15:44:22,765 1487 INFO colanta-v0 odoo.addons.base.models.ir_http: Generating routing map 
+2019-12-19 15:44:22,797 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:22] "GET /web?db%3Dcolanta-v0 HTTP/1.1" 303 - 11 0.074 0.331
+2019-12-19 15:44:23,754 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:23] "GET /web/login HTTP/1.1" 200 - 345 0.378 0.380
+2019-12-19 15:44:24,328 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:24] "POST /website/translations HTTP/1.1" 200 - 14 0.044 0.015
+2019-12-19 15:44:25,086 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:44:25] "GET /web/image/res.company/1/logo?unique=de17f80 HTTP/1.1" 200 - 20 0.023 0.020
+2019-12-19 15:44:40,820 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 15:44:40,868 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 15:44:40,886 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 15:44:40,898 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 15:44:40,910 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2019-12-19 15:44:41,003 1487 INFO colanta-v0 odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2019-12-19 15:44:41,139 1487 INFO colanta-v0 odoo.addons.base.models.ir_autovacuum: GC'd 0 user log entries 
+2019-12-19 15:44:41,141 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2019-12-19 15:44:41,151 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2019-12-19 15:44:41,161 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 15:44:41,185 1487 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 15:44:41,195 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2019-12-19 15:44:41,294 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2019-12-19 15:44:41,303 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Publisher: Update Notification`. 
+2019-12-19 15:46:54,233 1487 INFO colanta-v0 odoo.addons.base.models.res_users: Login successful for db:colanta-v0 login:admin from 181.51.32.160 
+2019-12-19 15:46:54,243 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:54] "POST /web/login HTTP/1.1" 200 - 51 0.030 0.119
+2019-12-19 15:46:55,353 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:55] "GET /web? HTTP/1.1" 200 - 578 0.355 0.585
+2019-12-19 15:46:55,677 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:55] "GET /web/content/445-e7234d3/web.assets_backend.0.css HTTP/1.1" 200 - 6 0.004 0.014
+2019-12-19 15:46:55,766 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:55] "GET /web/content/446-e7234d3/web.assets_backend.1.css HTTP/1.1" 200 - 4 0.001 0.010
+2019-12-19 15:46:55,814 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:55] "GET /web/content/447-e7234d3/web.assets_backend.js HTTP/1.1" 200 - 4 0.001 0.035
+2019-12-19 15:46:55,831 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:55] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 200 - 16 0.011 0.009
+2019-12-19 15:46:55,834 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:55] "GET /web/image/ir.ui.menu/74/web_icon_data HTTP/1.1" 200 - 17 0.012 0.012
+2019-12-19 15:46:56,179 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:56] "GET /web/image/ir.ui.menu/248/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-19 15:46:56,449 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:56] "GET /web/image/ir.ui.menu/261/web_icon_data HTTP/1.1" 200 - 17 0.005 0.007
+2019-12-19 15:46:56,478 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:56] "GET /web/image/ir.ui.menu/150/web_icon_data HTTP/1.1" 200 - 16 0.004 0.006
+2019-12-19 15:46:56,696 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:56] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-19 15:46:56,711 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:56] "GET /web/image/ir.ui.menu/179/web_icon_data HTTP/1.1" 200 - 16 0.004 0.006
+2019-12-19 15:46:57,025 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:57] "GET /web/image/ir.ui.menu/96/web_icon_data HTTP/1.1" 200 - 16 0.009 0.009
+2019-12-19 15:46:57,027 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:57] "GET /web/image/ir.ui.menu/196/web_icon_data HTTP/1.1" 200 - 16 0.012 0.008
+2019-12-19 15:46:57,283 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:57] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-19 15:46:57,293 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:57] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-19 15:46:59,851 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:59] "GET /web/webclient/qweb?mods=base,web,bus,web_tour,mail,sales_team,calendar,utm,contacts,portal,digest,crm,web_editor,website,product,barcodes,stock,account,payment,sale,sale_management,purchase,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v12,base_import,web_settings_dashboard,iap,l10n_co,mail_bot,partner_autocomplete,payment_transfer,sale_stock,sms,snailmail,web_diagram,web_kanban_gauge,web_unsplash,website_mail,website_theme_install HTTP/1.1" 200 - 1 0.000 0.080
+2019-12-19 15:46:59,984 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:46:59] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.003
+2019-12-19 15:47:00,060 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:00] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.008 0.008
+2019-12-19 15:47:00,945 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:00] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.036 0.030
+2019-12-19 15:47:01,501 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:01] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.005
+2019-12-19 15:47:01,588 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:01] "POST /mail/init_messaging HTTP/1.1" 200 - 68 0.066 0.025
+2019-12-19 15:47:01,831 1487 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2019-12-19 15:47:02,409 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:02] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 15 0.012 0.008
+2019-12-19 15:47:02,426 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:02] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.003
+2019-12-19 15:47:02,440 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:02] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 15 0.005 0.010
+2019-12-19 15:47:02,652 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:02] "POST /calendar/notify HTTP/1.1" 200 - 3 0.005 0.004
+2019-12-19 15:47:02,653 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:02] "POST /web/action/load HTTP/1.1" 200 - 14 0.014 0.007
+2019-12-19 15:47:02,914 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:02] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 24 0.025 0.019
+2019-12-19 15:47:03,279 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:03] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 11 0.009 0.006
+2019-12-19 15:47:03,541 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:03] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.005 0.006
+2019-12-19 15:47:31,497 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:31] "GET /web HTTP/1.1" 200 - 8 0.003 0.011
+2019-12-19 15:47:31,805 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:31] "GET /web/image/ir.ui.menu/74/web_icon_data HTTP/1.1" 304 - 17 0.005 0.007
+2019-12-19 15:47:32,105 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/webclient/qweb?mods=base,web,bus,web_tour,mail,sales_team,calendar,utm,contacts,portal,digest,crm,web_editor,website,product,barcodes,stock,account,payment,sale,sale_management,purchase,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v12,base_import,web_settings_dashboard,iap,l10n_co,mail_bot,partner_autocomplete,payment_transfer,sale_stock,sms,snailmail,web_diagram,web_kanban_gauge,web_unsplash,website_mail,website_theme_install HTTP/1.1" 200 - 1 0.000 0.047
+2019-12-19 15:47:32,175 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.003
+2019-12-19 15:47:32,221 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "POST /web/dataset/call HTTP/1.1" 200 - 3 0.001 0.003
+2019-12-19 15:47:32,263 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 304 - 16 0.004 0.006
+2019-12-19 15:47:32,387 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/196/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 15:47:32,453 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 15:47:32,489 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/96/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 15:47:32,604 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/179/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 15:47:32,693 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/150/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 15:47:32,706 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 304 - 16 0.004 0.006
+2019-12-19 15:47:32,825 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 304 - 16 0.007 0.007
+2019-12-19 15:47:32,830 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/248/web_icon_data HTTP/1.1" 304 - 16 0.005 0.008
+2019-12-19 15:47:32,981 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:32] "GET /web/image/ir.ui.menu/261/web_icon_data HTTP/1.1" 304 - 17 0.005 0.007
+2019-12-19 15:47:33,475 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:33] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.011 0.030
+2019-12-19 15:47:34,194 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:34] "POST /mail/init_messaging HTTP/1.1" 200 - 40 0.014 0.017
+2019-12-19 15:47:34,221 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:34] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.004
+2019-12-19 15:47:35,220 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:35] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 6 0.003 0.006
+2019-12-19 15:47:35,449 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:35] "POST /web/action/load HTTP/1.1" 200 - 33 0.027 0.019
+2019-12-19 15:47:35,682 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:35] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 13 0.004 0.008
+2019-12-19 15:47:36,261 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:36] "POST /web/dataset/call_kw/stock.picking.type/load_views HTTP/1.1" 200 - 49 0.027 0.031
+2019-12-19 15:47:37,768 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 35 0.027 0.015
+2019-12-19 15:47:38,081 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:38] "POST /calendar/notify HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 15:47:49,878 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:49] "POST /web/action/load HTTP/1.1" 200 - 53 0.053 0.037
+2019-12-19 15:47:51,833 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:51] "POST /longpolling/poll HTTP/1.1" 200 - 12 0.005 50.008
+2019-12-19 15:47:53,712 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:53] "POST /web/dataset/call_kw/sale.order/load_views HTTP/1.1" 200 - 205 0.105 0.139
+2019-12-19 15:47:55,713 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 11 0.011 0.006
+2019-12-19 15:47:57,115 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:57] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 67 0.028 0.070
+2019-12-19 15:47:59,466 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:59] "GET /web/static/src/img/smiling_face.svg HTTP/1.1" 200 - - - -
+2019-12-19 15:47:59,466 1487 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 15:47:59] "GET /sale/static/src/img/sale_quotation_onboarding_bg.jpg HTTP/1.1" 200 - - - -
+2019-12-19 15:48:04,386 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:48:04] "POST /web/action/load HTTP/1.1" 200 - 57 0.038 0.042
+2019-12-19 15:48:04,817 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:48:04] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 - 159 0.078 0.136
+2019-12-19 15:48:07,659 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:48:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 295 0.139 0.164
+2019-12-19 15:48:25,198 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:48:25] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.008
+2019-12-19 15:48:59,082 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:48:59] "POST /web/dataset/search_read HTTP/1.1" 200 - 104 0.051 0.100
+2019-12-19 15:49:08,076 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:49:08] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.041 0.097
+2019-12-19 15:49:10,167 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:49:10] "POST /web/dataset/search_read HTTP/1.1" 200 - 27 0.016 0.015
+2019-12-19 15:49:15,492 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 15:49:15,503 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 15:49:15,779 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:49:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.008
+2019-12-19 15:49:30,063 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:49:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.042 0.098
+2019-12-19 15:49:32,722 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:49:32] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.016 0.014
+2019-12-19 15:49:49,809 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:49:49] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.096
+2019-12-19 15:49:54,221 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:49:54] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.015
+2019-12-19 15:50:06,004 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:50:06,795 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:06] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.036 0.095
+2019-12-19 15:50:09,307 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.014
+2019-12-19 15:50:18,972 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.097
+2019-12-19 15:50:21,414 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:21] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.014
+2019-12-19 15:50:30,831 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.100
+2019-12-19 15:50:33,560 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.015
+2019-12-19 15:50:41,787 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:41] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.038 0.097
+2019-12-19 15:50:44,136 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.015
+2019-12-19 15:50:56,382 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:50:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:51:03,259 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:51:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.099
+2019-12-19 15:51:05,918 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:51:05] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.014
+2019-12-19 15:51:46,867 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:51:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:52:37,065 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:52:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:53:27,359 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:53:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:54:17,606 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:54:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:55:05,724 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:05] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.097
+2019-12-19 15:55:07,835 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:55:08,458 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:08] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.015
+2019-12-19 15:55:39,986 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.098
+2019-12-19 15:55:42,405 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.015
+2019-12-19 15:55:51,577 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:51] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.100
+2019-12-19 15:55:53,254 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:53] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.014
+2019-12-19 15:55:58,061 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:55:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:56:48,539 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:56:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:57:07,858 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:57:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.098
+2019-12-19 15:57:10,484 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:57:10] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.014
+2019-12-19 15:57:27,348 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:57:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.036 0.097
+2019-12-19 15:57:38,763 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:57:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:57:42,892 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:57:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.015
+2019-12-19 15:58:29,207 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:58:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:58:41,852 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:58:41] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.098
+2019-12-19 15:59:19,444 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:59:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 15:59:26,146 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 15:59:26,156 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 15:59:44,808 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:59:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.015
+2019-12-19 15:59:48,590 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 15:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 - 30 0.018 0.017
+2019-12-19 16:00:01,173 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:01] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.098
+2019-12-19 16:00:04,070 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.014
+2019-12-19 16:00:09,668 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:00:33,898 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.097
+2019-12-19 16:00:35,948 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.015
+2019-12-19 16:00:44,322 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.036 0.097
+2019-12-19 16:00:47,667 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.015
+2019-12-19 16:00:55,537 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.036 0.097
+2019-12-19 16:00:57,589 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.014
+2019-12-19 16:00:59,891 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:00:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-19 16:01:50,128 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:01:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:02:40,347 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:02:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:03:30,571 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:03:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:04:20,790 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:04:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-19 16:05:11,028 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:05:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:06:01,270 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:06:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:06:51,634 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:06:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-19 16:07:42,000 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:07:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:08:32,221 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:08:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:09:22,467 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:09:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:09:36,783 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:09:36,793 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:10:12,698 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:10:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:10:37,869 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 16:10:37,884 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 16:10:37,889 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 16:10:37,904 1487 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 16:11:02,942 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:11:02] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-19 16:11:38,937 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 16:11:38,947 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 16:11:38,955 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 16:11:38,964 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 16:11:38,973 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 16:11:38,981 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 16:11:53,396 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:11:53] "POST /longpolling/poll HTTP/1.1" 200 - 22 0.009 50.010
+2019-12-19 16:12:44,046 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:12:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:13:34,278 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:13:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:14:24,510 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:14:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:15:14,745 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:15:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:16:04,956 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:16:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:16:33,949 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:16:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 135 0.051 0.104
+2019-12-19 16:16:36,523 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:16:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.014
+2019-12-19 16:16:50,760 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:16:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.036 0.096
+2019-12-19 16:16:55,627 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:16:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:17:03,468 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:17:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.004
+2019-12-19 16:17:46,134 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:17:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:18:37,360 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:18:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:19:27,609 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:19:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-19 16:19:43,997 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:19:44,007 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:20:17,838 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:20:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:21:08,049 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:21:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:21:58,395 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:21:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:21:59,088 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:21:59] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.099
+2019-12-19 16:22:03,761 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.004
+2019-12-19 16:22:06,724 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:06] "POST /web/dataset/call_kw/product.supplierinfo/load_views HTTP/1.1" 200 - 36 0.022 0.018
+2019-12-19 16:22:06,737 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:06] "POST /web/dataset/call_kw/product.packaging/load_views HTTP/1.1" 200 - 22 0.013 0.014
+2019-12-19 16:22:07,006 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:07] "POST /web/dataset/call_kw/product.template/default_get HTTP/1.1" 200 - 60 0.022 0.022
+2019-12-19 16:22:07,238 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:07] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 13 0.010 0.007
+2019-12-19 16:22:07,477 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:07] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 13 0.007 0.018
+2019-12-19 16:22:07,688 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:07] "POST /web/dataset/call_kw/product.category/name_get HTTP/1.1" 200 - 4 0.002 0.004
+2019-12-19 16:22:07,734 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:07] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 - 5 0.003 0.006
+2019-12-19 16:22:07,747 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:07] "POST /web/dataset/call_kw/res.users/name_get HTTP/1.1" 200 - 20 0.010 0.011
+2019-12-19 16:22:07,979 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:07] "POST /web/dataset/call_kw/stock.location.route/name_search HTTP/1.1" 200 - 12 0.005 0.007
+2019-12-19 16:22:23,880 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:23] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 1 0.000 0.007
+2019-12-19 16:22:48,616 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:22:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:23:39,183 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:23:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:24:29,944 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:24:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:25:20,501 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:25:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:26:10,711 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:26:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:27:00,941 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:27:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:27:51,187 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:27:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:28:42,433 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:28:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:28:56,937 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:28:56,949 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:29:32,740 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:29:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:29:40,740 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:29:40] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 5 0.002 0.006
+2019-12-19 16:30:23,280 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:30:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:30:42,498 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:30:42] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 16:31:53,334 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:31:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-19 16:32:43,547 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:32:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-19 16:33:33,816 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:33:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:34:24,047 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:34:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:35:14,282 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:35:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:36:04,626 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:36:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:36:54,899 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:36:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:37:45,170 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:37:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:38:35,467 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:38:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:39:07,520 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:39:07,531 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:39:25,703 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:39:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:40:15,935 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:40:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:40:45,231 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 16:40:45,247 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 16:40:45,251 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 16:40:45,266 1487 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 16:41:06,302 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:41:06] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-19 16:41:56,643 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:41:56] "POST /longpolling/poll HTTP/1.1" 200 - 22 0.009 50.010
+2019-12-19 16:42:47,003 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:42:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:43:37,229 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:43:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:44:27,610 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:44:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:45:17,839 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:45:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:46:08,178 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:46:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:46:58,408 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:46:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:47:48,695 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:47:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:48:38,923 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:48:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:49:18,174 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:49:18,185 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:49:29,135 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:49:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:50:19,354 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:50:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:51:09,684 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:51:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:51:59,904 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:51:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:52:50,106 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:52:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:53:40,349 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:53:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:54:30,555 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:54:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:55:20,775 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:55:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:56:11,129 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 16:56:21,586 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:21] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 13 0.005 0.008
+2019-12-19 16:56:51,875 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:51] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 5 0.001 0.006
+2019-12-19 16:56:58,187 1487 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 16:56:58,188 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:58] "POST /web/dataset/call_kw/product.template/create HTTP/1.1" 200 - 237 0.161 0.101
+2019-12-19 16:56:58,582 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:58] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 195 0.119 0.069
+2019-12-19 16:56:58,840 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:58] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 6 0.002 0.005
+2019-12-19 16:56:59,306 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:59] "POST /mail/read_followers HTTP/1.1" 200 - 11 0.007 0.007
+2019-12-19 16:56:59,341 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:59] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 42 0.023 0.017
+2019-12-19 16:56:59,553 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:56:59] "GET /web/image/res.partner/3/image_small HTTP/1.1" 200 - 19 0.005 0.008
+2019-12-19 16:57:01,495 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:57:01] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-19 16:57:04,295 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:57:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.015
+2019-12-19 16:57:07,428 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:57:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.094
+2019-12-19 16:57:51,705 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:57:51] "POST /longpolling/poll HTTP/1.1" 200 - 14 0.005 50.008
+2019-12-19 16:58:41,930 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:58:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-19 16:59:28,826 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:59:28,840 1487 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 16:59:32,135 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 16:59:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 17:00:22,358 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 17:00:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 17:01:12,583 1487 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 17:01:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 17:01:18,338 1487 INFO ? odoo.service.server: Initiating shutdown 
+2019-12-19 17:01:18,338 1487 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2019-12-19 18:37:24,559 1425 INFO ? odoo: Odoo version 12.0 
+2019-12-19 18:37:24,561 1425 INFO ? odoo: Using configuration file at /opt/config/odoo12.conf 
+2019-12-19 18:37:24,561 1425 INFO ? odoo: addons paths: ['/opt/odoosrc/data/addons/12.0', '/opt/odoosrc/extra-addons', '/opt/odoosrc/12.0/odoo/addons', '/opt/odoosrc/12.0/odoo/odoo/addons'] 
+2019-12-19 18:37:24,561 1425 INFO ? odoo: database: default@default:default 
+2019-12-19 18:37:24,766 1425 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2019-12-19 18:37:25,151 1425 INFO ? odoo.service.server: HTTP service (werkzeug) running on ip-172-31-10-159.us-east-2.compute.internal:1269 
+2019-12-19 18:45:15,492 1425 INFO ? odoo.http: HTTP Configuring static files 
+2019-12-19 18:45:15,591 1425 INFO colanta-v0 odoo.modules.loading: loading 1 modules... 
+2019-12-19 18:45:15,606 1425 INFO colanta-v0 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2019-12-19 18:45:15,686 1425 INFO colanta-v0 odoo.modules.loading: loading 58 modules... 
+2019-12-19 18:45:16,099 1425 INFO colanta-v0 odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it. 
+2019-12-19 18:45:16,662 1425 INFO colanta-v0 odoo.modules.loading: 58 modules loaded in 0.98s, 0 queries 
+2019-12-19 18:45:17,211 1425 INFO colanta-v0 odoo.fields: Field stock.production.lot.product_uom_id depends on non-stored field product.product.uom_id 
+2019-12-19 18:45:17,213 1425 INFO colanta-v0 odoo.fields: Field stock.picking.move_ids_without_package depends on non-stored field stock.move.picking_type_entire_packs 
+2019-12-19 18:45:17,213 1425 INFO colanta-v0 odoo.fields: Field stock.picking.move_line_ids_without_package depends on non-stored field stock.move.line.picking_type_entire_packs 
+2019-12-19 18:45:17,281 1425 INFO colanta-v0 odoo.fields: Field purchase.order.line.product_uom_qty depends on non-stored field product.product.uom_id 
+2019-12-19 18:45:17,285 1425 INFO colanta-v0 odoo.modules.loading: Modules loaded. 
+2019-12-19 18:45:17,300 1425 INFO colanta-v0 odoo.addons.base.models.ir_http: Generating routing map 
+2019-12-19 18:45:17,515 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:45:17] "POST /website/translations HTTP/1.1" 200 - 44 0.320 1.702
+2019-12-19 18:45:26,130 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 18:45:26,192 1425 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 18:45:26,197 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 18:45:26,210 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 18:45:26,225 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 18:45:26,234 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 18:46:01,471 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:01] "GET /web/login HTTP/1.1" 200 - 728 0.520 0.693
+2019-12-19 18:46:02,197 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:02] "POST /website/translations HTTP/1.1" 200 - 11 0.007 0.014
+2019-12-19 18:46:02,385 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:02] "POST /web/dataset/call HTTP/1.1" 200 - 12 0.008 0.008
+2019-12-19 18:46:03,243 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:03] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 9 0.004 0.005
+2019-12-19 18:46:06,620 1425 INFO colanta-v0 odoo.addons.base.models.res_users: Login successful for db:colanta-v0 login:admin from 181.51.32.160 
+2019-12-19 18:46:06,628 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:06] "POST /web/login HTTP/1.1" 200 - 31 0.020 0.121
+2019-12-19 18:46:07,551 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:07] "GET /web? HTTP/1.1" 200 - 315 0.203 0.457
+2019-12-19 18:46:08,067 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:08] "GET /web/image/ir.ui.menu/74/web_icon_data HTTP/1.1" 200 - 19 0.007 0.007
+2019-12-19 18:46:08,428 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:08] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.004
+2019-12-19 18:46:08,507 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:08] "GET /web/webclient/qweb?mods=base,web,bus,web_tour,mail,sales_team,calendar,utm,contacts,portal,digest,crm,web_editor,website,product,barcodes,stock,account,payment,sale,sale_management,purchase,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v12,base_import,web_settings_dashboard,iap,l10n_co,mail_bot,partner_autocomplete,payment_transfer,sale_stock,sms,snailmail,web_diagram,web_kanban_gauge,web_unsplash,website_mail,website_theme_install HTTP/1.1" 200 - 1 0.000 0.084
+2019-12-19 18:46:08,664 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:08] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.006 0.008
+2019-12-19 18:46:08,886 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:08] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-19 18:46:08,904 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:08] "GET /web/image/ir.ui.menu/150/web_icon_data HTTP/1.1" 200 - 16 0.007 0.007
+2019-12-19 18:46:08,908 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:08] "GET /web/image/ir.ui.menu/196/web_icon_data HTTP/1.1" 200 - 16 0.005 0.008
+2019-12-19 18:46:09,180 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:09] "GET /web/image/ir.ui.menu/96/web_icon_data HTTP/1.1" 200 - 16 0.007 0.008
+2019-12-19 18:46:09,181 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:09] "GET /web/image/ir.ui.menu/179/web_icon_data HTTP/1.1" 200 - 16 0.007 0.008
+2019-12-19 18:46:09,409 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:09] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 200 - 16 0.011 0.008
+2019-12-19 18:46:09,417 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:09] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 200 - 16 0.008 0.014
+2019-12-19 18:46:09,418 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:09] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 200 - 16 0.012 0.008
+2019-12-19 18:46:09,809 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:09] "GET /web/image/ir.ui.menu/261/web_icon_data HTTP/1.1" 200 - 17 0.008 0.008
+2019-12-19 18:46:09,809 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:09] "GET /web/image/ir.ui.menu/248/web_icon_data HTTP/1.1" 200 - 16 0.007 0.007
+2019-12-19 18:46:12,793 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:12] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.036 0.031
+2019-12-19 18:46:14,639 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:14] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.004
+2019-12-19 18:46:14,710 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:14] "POST /mail/init_messaging HTTP/1.1" 200 - 66 0.067 0.023
+2019-12-19 18:46:14,877 1425 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2019-12-19 18:46:17,490 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:17] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2019-12-19 18:46:17,508 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:17] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 15 0.013 0.010
+2019-12-19 18:46:17,957 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:17] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 13 0.004 0.018
+2019-12-19 18:46:18,389 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:18] "POST /web/action/load HTTP/1.1" 200 - 14 0.011 0.007
+2019-12-19 18:46:18,849 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:18] "POST /calendar/notify HTTP/1.1" 200 - 3 0.005 0.004
+2019-12-19 18:46:19,670 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:19] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 24 0.018 0.019
+2019-12-19 18:46:20,012 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:20] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 11 0.008 0.006
+2019-12-19 18:46:20,327 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:20] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.007 0.006
+2019-12-19 18:46:43,890 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:43] "GET /web HTTP/1.1" 200 - 8 0.003 0.011
+2019-12-19 18:46:44,246 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:44] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 304 - 16 0.012 0.009
+2019-12-19 18:46:44,247 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:44] "GET /web/image/ir.ui.menu/74/web_icon_data HTTP/1.1" 304 - 17 0.010 0.009
+2019-12-19 18:46:44,653 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:44] "GET /web/webclient/qweb?mods=base,web,bus,web_tour,mail,sales_team,calendar,utm,contacts,portal,digest,crm,web_editor,website,product,barcodes,stock,account,payment,sale,sale_management,purchase,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v12,base_import,web_settings_dashboard,iap,l10n_co,mail_bot,partner_autocomplete,payment_transfer,sale_stock,sms,snailmail,web_diagram,web_kanban_gauge,web_unsplash,website_mail,website_theme_install HTTP/1.1" 200 - 1 0.000 0.049
+2019-12-19 18:46:44,656 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:44] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.012
+2019-12-19 18:46:44,727 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:44] "POST /web/dataset/call HTTP/1.1" 200 - 3 0.001 0.003
+2019-12-19 18:46:44,954 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:44] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 18:46:45,002 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/96/web_icon_data HTTP/1.1" 304 - 16 0.004 0.006
+2019-12-19 18:46:45,207 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/150/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 18:46:45,253 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/196/web_icon_data HTTP/1.1" 304 - 16 0.004 0.006
+2019-12-19 18:46:45,455 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 18:46:45,527 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/179/web_icon_data HTTP/1.1" 304 - 16 0.006 0.008
+2019-12-19 18:46:45,528 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/261/web_icon_data HTTP/1.1" 304 - 17 0.008 0.008
+2019-12-19 18:46:45,666 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 304 - 16 0.004 0.007
+2019-12-19 18:46:45,716 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:45] "GET /web/image/ir.ui.menu/248/web_icon_data HTTP/1.1" 304 - 16 0.004 0.006
+2019-12-19 18:46:46,461 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:46] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.012 0.030
+2019-12-19 18:46:47,158 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:47] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.005
+2019-12-19 18:46:47,160 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:47] "POST /mail/init_messaging HTTP/1.1" 200 - 40 0.019 0.017
+2019-12-19 18:46:48,143 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:48] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 6 0.003 0.006
+2019-12-19 18:46:49,337 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:49] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 13 0.005 0.009
+2019-12-19 18:46:49,432 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:49] "POST /web/action/load HTTP/1.1" 200 - 56 0.069 0.043
+2019-12-19 18:46:51,033 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:51] "POST /web/dataset/call_kw/sale.order/load_views HTTP/1.1" 200 - 211 0.115 0.143
+2019-12-19 18:46:52,879 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 11 0.013 0.006
+2019-12-19 18:46:53,378 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:53] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 67 0.031 0.072
+2019-12-19 18:46:53,930 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:46:53] "POST /calendar/notify HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:47:04,879 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:04] "POST /longpolling/poll HTTP/1.1" 200 - 12 0.007 50.008
+2019-12-19 18:47:05,159 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:05] "POST /web/action/load HTTP/1.1" 200 - 57 0.038 0.042
+2019-12-19 18:47:05,603 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:05] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 - 162 0.076 0.135
+2019-12-19 18:47:06,962 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:06] "POST /web/dataset/search_read HTTP/1.1" 200 - 295 0.206 0.170
+2019-12-19 18:47:37,404 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:37] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.008
+2019-12-19 18:47:37,497 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 264 0.112 0.161
+2019-12-19 18:47:43,682 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:43] "POST /web/dataset/search_read HTTP/1.1" 200 - 29 0.029 0.017
+2019-12-19 18:47:45,880 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:45] "POST /web/dataset/call_kw/product.supplierinfo/load_views HTTP/1.1" 200 - 17 0.013 0.018
+2019-12-19 18:47:45,886 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:45] "POST /web/dataset/call_kw/product.packaging/load_views HTTP/1.1" 200 - 20 0.017 0.019
+2019-12-19 18:47:46,350 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:46] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 161 0.165 0.061
+2019-12-19 18:47:47,620 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:47] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 6 0.002 0.005
+2019-12-19 18:47:47,835 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:47] "POST /web/dataset/call_kw/stock.location.route/name_search HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-19 18:47:48,379 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:48] "POST /mail/read_followers HTTP/1.1" 200 - 10 0.009 0.007
+2019-12-19 18:47:48,427 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:48] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 24 0.017 0.012
+2019-12-19 18:47:48,635 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:47:48] "GET /web/image/res.partner/3/image_small HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-19 18:48:00,249 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:48:00] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 5 0.005 0.004
+2019-12-19 18:48:06,032 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:48:06] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.004 0.012
+2019-12-19 18:48:06,346 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:48:06] "POST /web/dataset/call_kw/product.category/load_views HTTP/1.1" 200 - 26 0.013 0.018
+2019-12-19 18:48:06,602 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:48:06] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 2 0.001 0.004
+2019-12-19 18:48:06,849 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:48:06] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.009
+2019-12-19 18:48:27,653 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:48:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:49:05,945 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:05] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 14 0.006 0.015
+2019-12-19 18:49:17,905 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:49:26,490 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 18:49:32,876 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:32] "POST /web/dataset/call_kw/product.template/write HTTP/1.1" 200 - 7 0.003 0.007
+2019-12-19 18:49:33,477 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:33] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 97 0.050 0.051
+2019-12-19 18:49:33,960 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:33] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-19 18:49:49,972 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:49] "POST /web/dataset/search_read HTTP/1.1" 200 - 29 0.022 0.017
+2019-12-19 18:49:53,409 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:53] "POST /web/dataset/search_read HTTP/1.1" 200 - 264 0.110 0.160
+2019-12-19 18:49:56,134 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:56] "POST /web/dataset/search_read HTTP/1.1" 200 - 29 0.024 0.017
+2019-12-19 18:49:59,505 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:49:59] "POST /web/dataset/search_read HTTP/1.1" 200 - 264 0.106 0.160
+2019-12-19 18:50:02,032 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:02] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.006 0.004
+2019-12-19 18:50:05,006 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:05] "POST /web/dataset/call_kw/product.template/default_get HTTP/1.1" 200 - 60 0.018 0.021
+2019-12-19 18:50:06,387 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:06] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:50:06,641 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:06] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 9 0.004 0.017
+2019-12-19 18:50:06,917 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:06] "POST /web/dataset/call_kw/product.category/name_get HTTP/1.1" 200 - 2 0.001 0.004
+2019-12-19 18:50:06,932 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:06] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 - 5 0.004 0.006
+2019-12-19 18:50:06,936 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:06] "POST /web/dataset/call_kw/res.users/name_get HTTP/1.1" 200 - 5 0.003 0.008
+2019-12-19 18:50:07,215 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:07] "POST /web/dataset/call_kw/stock.location.route/name_search HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-19 18:50:08,112 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:50:12,866 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:12] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 1 0.000 0.009
+2019-12-19 18:50:15,306 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:15] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.001 0.004
+2019-12-19 18:50:19,068 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:19] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.003 0.013
+2019-12-19 18:50:19,363 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.008
+2019-12-19 18:50:29,310 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:29] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 17 0.006 0.025
+2019-12-19 18:50:42,621 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:42] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:50:44,528 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:44] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:50:58,378 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:50:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:51:08,928 1425 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 18:51:08,929 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:08] "POST /web/dataset/call_kw/product.template/create HTTP/1.1" 200 - 171 0.108 0.090
+2019-12-19 18:51:09,348 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:09] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 202 0.093 0.077
+2019-12-19 18:51:10,502 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:10] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 6 0.002 0.005
+2019-12-19 18:51:10,981 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:10] "POST /mail/read_followers HTTP/1.1" 200 - 11 0.005 0.007
+2019-12-19 18:51:11,019 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:11] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 42 0.018 0.016
+2019-12-19 18:51:11,220 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:11] "GET /web/image/res.partner/3/image_small HTTP/1.1" 200 - 19 0.005 0.008
+2019-12-19 18:51:15,613 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:15] "POST /web/dataset/search_read HTTP/1.1" 200 - 29 0.022 0.017
+2019-12-19 18:51:18,154 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 264 0.106 0.158
+2019-12-19 18:51:24,228 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.044 0.098
+2019-12-19 18:51:34,616 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:34] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 95 0.055 0.050
+2019-12-19 18:51:35,394 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:35] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:51:38,398 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:38] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.038 0.152
+2019-12-19 18:51:48,877 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:51:48] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-19 18:52:01,074 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:01] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.006 0.004
+2019-12-19 18:52:02,786 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:02] "POST /web/dataset/call_kw/product.template/default_get HTTP/1.1" 200 - 60 0.018 0.021
+2019-12-19 18:52:03,023 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:03] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:52:03,252 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:03] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 9 0.004 0.027
+2019-12-19 18:52:03,479 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:03] "POST /web/dataset/call_kw/product.category/name_get HTTP/1.1" 200 - 4 0.006 0.007
+2019-12-19 18:52:03,480 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:03] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 - 5 0.006 0.008
+2019-12-19 18:52:03,491 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:03] "POST /web/dataset/call_kw/res.users/name_get HTTP/1.1" 200 - 14 0.008 0.010
+2019-12-19 18:52:04,573 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:04] "POST /web/dataset/call_kw/stock.location.route/name_search HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-19 18:52:09,092 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:09] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 1 0.000 0.007
+2019-12-19 18:52:11,047 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:11] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.001 0.004
+2019-12-19 18:52:12,726 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:12] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.012
+2019-12-19 18:52:14,002 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.009
+2019-12-19 18:52:39,086 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:52:39] "POST /longpolling/poll HTTP/1.1" 200 - 14 0.005 50.008
+2019-12-19 18:53:29,697 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:53:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:54:02,152 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:02] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:54:11,278 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:11] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 5 0.001 0.006
+2019-12-19 18:54:14,973 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:14] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:54:21,438 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:54:35,131 1425 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 18:54:35,132 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:35] "POST /web/dataset/call_kw/product.template/create HTTP/1.1" 200 - 167 0.067 0.079
+2019-12-19 18:54:36,963 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:36] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 195 0.092 0.079
+2019-12-19 18:54:37,490 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:37] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 6 0.002 0.005
+2019-12-19 18:54:38,409 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:38] "POST /mail/read_followers HTTP/1.1" 200 - 11 0.007 0.007
+2019-12-19 18:54:38,437 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:38] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 42 0.021 0.018
+2019-12-19 18:54:39,078 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:39] "GET /web/image/res.partner/3/image_small HTTP/1.1" 200 - 19 0.005 0.008
+2019-12-19 18:54:42,192 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.014
+2019-12-19 18:54:48,332 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:48] "POST /web/dataset/search_read HTTP/1.1" 200 - 113 0.056 0.101
+2019-12-19 18:54:50,519 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.097
+2019-12-19 18:54:52,351 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:54:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 107 0.045 0.099
+2019-12-19 18:55:08,631 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:08] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.037 0.097
+2019-12-19 18:55:13,323 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:13] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-19 18:55:13,683 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.013 0.014
+2019-12-19 18:55:17,593 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:17] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 93 0.048 0.048
+2019-12-19 18:55:19,596 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:19] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:55:24,916 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:24] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 5 0.003 0.004
+2019-12-19 18:55:27,793 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:27] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:55:28,728 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:28] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 2 0.001 0.067
+2019-12-19 18:55:29,225 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:29] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.001 0.004
+2019-12-19 18:55:29,641 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:29] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:55:29,922 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:29] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 2 0.001 0.003
+2019-12-19 18:55:29,936 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:29] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 2 0.002 0.005
+2019-12-19 18:55:29,936 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:29] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 2 0.002 0.004
+2019-12-19 18:55:30,405 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:30] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:55:31,214 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:31] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.001 0.004
+2019-12-19 18:55:35,750 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:35] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:55:35,759 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:35] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.003
+2019-12-19 18:55:36,567 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:36] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:55:45,087 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:45] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:55:46,099 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:46] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-19 18:55:51,042 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:51] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 17 0.006 0.104
+2019-12-19 18:55:59,751 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:55:59] "POST /web/dataset/call_kw/product.template/write HTTP/1.1" 200 - 2 0.001 0.004
+2019-12-19 18:56:02,581 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:56:02] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 100 0.048 0.052
+2019-12-19 18:56:03,979 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:56:03] "POST /longpolling/poll HTTP/1.1" 200 - 14 0.005 50.008
+2019-12-19 18:56:05,360 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:56:05] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 5 0.001 0.005
+2019-12-19 18:56:24,509 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:56:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.014 0.015
+2019-12-19 18:56:28,651 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:56:28] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.038 0.099
+2019-12-19 18:56:58,951 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:56:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:57:50,450 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:57:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-19 18:58:11,799 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:11] "GET /web/session/logout HTTP/1.1" 303 - 1 0.000 0.003
+2019-12-19 18:58:12,130 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:12] "GET /web HTTP/1.1" 303 - 1 0.000 0.003
+2019-12-19 18:58:12,988 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:12] "GET /web/login HTTP/1.1" 200 - 344 0.146 0.390
+2019-12-19 18:58:14,516 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:14] "POST /website/translations HTTP/1.1" 200 - 12 0.007 0.014
+2019-12-19 18:58:16,680 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:16] "GET /web/database/selector HTTP/1.1" 200 - 34 0.764 0.243
+2019-12-19 18:58:20,193 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:20] "GET /web/database/manager HTTP/1.1" 200 - 34 0.011 0.124
+2019-12-19 18:58:35,761 1425 INFO None odoo.service.db: Duplicate database `colanta-v0` to `colanta-v1`. 
+2019-12-19 18:58:35,765 1425 INFO None odoo.sql_db: ConnectionPool(used=1/count=16/max=64): Closed 3 connections to 'sslmode=prefer dbname=colanta-v0' 
+2019-12-19 18:58:37,434 1425 INFO colanta-v1 odoo.modules.loading: loading 1 modules... 
+2019-12-19 18:58:37,447 1425 INFO colanta-v1 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2019-12-19 18:58:37,473 1425 INFO colanta-v1 odoo.modules.loading: loading 58 modules... 
+2019-12-19 18:58:37,567 1425 INFO colanta-v1 odoo.modules.loading: 58 modules loaded in 0.09s, 0 queries 
+2019-12-19 18:58:37,698 1425 INFO colanta-v1 odoo.fields: Field stock.production.lot.product_uom_id depends on non-stored field product.product.uom_id 
+2019-12-19 18:58:37,699 1425 INFO colanta-v1 odoo.fields: Field stock.picking.move_ids_without_package depends on non-stored field stock.move.picking_type_entire_packs 
+2019-12-19 18:58:37,699 1425 INFO colanta-v1 odoo.fields: Field stock.picking.move_line_ids_without_package depends on non-stored field stock.move.line.picking_type_entire_packs 
+2019-12-19 18:58:37,720 1425 INFO colanta-v1 odoo.fields: Field purchase.order.line.product_uom_qty depends on non-stored field product.product.uom_id 
+2019-12-19 18:58:37,724 1425 INFO colanta-v1 odoo.modules.loading: Modules loaded. 
+2019-12-19 18:58:38,196 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:38] "POST /web/database/duplicate HTTP/1.1" 303 - 40 1.673 0.865
+2019-12-19 18:58:38,684 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:38] "GET /web/database/manager HTTP/1.1" 200 - 36 0.013 0.120
+2019-12-19 18:58:40,936 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.008
+2019-12-19 18:58:48,570 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:48] "GET /web/database/manager HTTP/1.1" 200 - 36 0.011 0.121
+2019-12-19 18:58:50,550 1425 INFO ? werkzeug: 181.51.32.160 - - [19/Dec/2019 18:58:50] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2019-12-19 18:59:00,903 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:59:00] "GET /web/ HTTP/1.1" 303 - 1 0.000 0.003
+2019-12-19 18:59:01,558 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:59:01] "GET /web/login HTTP/1.1" 200 - 42 0.019 0.033
+2019-12-19 18:59:02,987 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:59:02] "POST /website/translations HTTP/1.1" 200 - 12 0.007 0.014
+2019-12-19 18:59:04,202 1425 INFO colanta-v0 werkzeug: 181.51.32.160 - - [19/Dec/2019 18:59:04] "GET /web/database/selector HTTP/1.1" 200 - 36 0.011 0.118
+2019-12-19 18:59:27,046 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 18:59:27,065 1425 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 18:59:27,069 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:08:58,523 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:08:58,536 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:11:00,620 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 19:11:00,637 1425 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 19:11:00,641 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 19:11:00,657 1425 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 19:11:27,755 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 19:11:27,766 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 19:11:27,774 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 19:11:27,783 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 19:11:27,793 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 19:11:27,801 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 19:19:09,170 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:19:09,182 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:29:19,828 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:29:19,838 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:39:29,400 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:39:29,410 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:41:29,545 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 19:41:29,560 1425 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 19:41:29,564 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 19:41:29,579 1425 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 19:49:30,017 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:49:30,028 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:59:30,620 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 19:59:30,630 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 20:09:01,255 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 20:09:01,266 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 20:11:03,402 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 20:11:03,418 1425 INFO colanta-v1 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 20:11:03,423 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-19 20:11:03,438 1425 INFO colanta-v0 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-19 20:11:31,374 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 20:11:31,384 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 20:11:31,392 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 20:11:31,400 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-19 20:11:31,410 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-19 20:11:31,418 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-19 20:19:11,852 1425 INFO colanta-v1 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 20:19:11,862 1425 INFO colanta-v0 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-19 20:21:44,407 1425 INFO ? odoo.service.server: Initiating shutdown 
+2019-12-19 20:21:44,407 1425 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 

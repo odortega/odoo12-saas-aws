@@ -1,0 +1,552 @@
+2019-12-16 15:24:05,829 1487 INFO ? odoo: Odoo version 12.0 
+2019-12-16 15:24:05,830 1487 INFO ? odoo: Using configuration file at /opt/config/odoo12.conf 
+2019-12-16 15:24:05,830 1487 INFO ? odoo: addons paths: ['/opt/odoosrc/data/addons/12.0', '/opt/odoosrc/extra-addons', '/opt/odoosrc/12.0/odoo/addons', '/opt/odoosrc/12.0/odoo/odoo/addons'] 
+2019-12-16 15:24:05,830 1487 INFO ? odoo: database: default@default:default 
+2019-12-16 15:24:06,033 1487 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2019-12-16 15:24:06,342 1487 INFO ? odoo.service.server: HTTP service (werkzeug) running on ip-172-31-10-159.us-east-2.compute.internal:1269 
+2019-12-16 15:24:30,520 1487 INFO ? odoo.http: HTTP Configuring static files 
+2019-12-16 15:24:30,596 1487 INFO comercio-v2 odoo.modules.loading: loading 1 modules... 
+2019-12-16 15:24:30,610 1487 INFO comercio-v2 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2019-12-16 15:24:30,682 1487 INFO comercio-v2 odoo.modules.loading: loading 59 modules... 
+2019-12-16 15:24:31,065 1487 INFO comercio-v2 odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it. 
+2019-12-16 15:24:31,590 1487 INFO comercio-v2 odoo.modules.loading: 59 modules loaded in 0.91s, 0 queries 
+2019-12-16 15:24:32,127 1487 INFO comercio-v2 odoo.fields: Field stock.production.lot.product_uom_id depends on non-stored field product.product.uom_id 
+2019-12-16 15:24:32,128 1487 INFO comercio-v2 odoo.fields: Field stock.picking.move_ids_without_package depends on non-stored field stock.move.picking_type_entire_packs 
+2019-12-16 15:24:32,128 1487 INFO comercio-v2 odoo.fields: Field stock.picking.move_line_ids_without_package depends on non-stored field stock.move.line.picking_type_entire_packs 
+2019-12-16 15:24:32,193 1487 INFO comercio-v2 odoo.fields: Field purchase.order.line.product_uom_qty depends on non-stored field product.product.uom_id 
+2019-12-16 15:24:32,196 1487 INFO comercio-v2 odoo.modules.loading: Modules loaded. 
+2019-12-16 15:24:32,209 1487 INFO comercio-v2 odoo.addons.base.models.ir_http: Generating routing map 
+2019-12-16 15:24:33,465 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:33] "GET / HTTP/1.1" 200 - 744 0.688 2.255
+2019-12-16 15:24:33,675 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:33] "GET /web/content/428-cd59077/1/web.assets_common.0.css HTTP/1.1" 200 - 6 0.005 0.011
+2019-12-16 15:24:33,944 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:33] "GET /web/content/345-9ec6448/1/web_editor.summernote.0.css HTTP/1.1" 200 - 4 0.003 0.015
+2019-12-16 15:24:33,947 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:33] "GET /web/content/346-8ffa645/1/web_editor.assets_editor.0.css HTTP/1.1" 200 - 4 0.008 0.013
+2019-12-16 15:24:33,948 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:33] "GET /web/content/430-da87d65/1/web.assets_frontend.1.css HTTP/1.1" 200 - 4 0.004 0.012
+2019-12-16 15:24:33,956 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:33] "GET /web/content/429-da87d65/1/web.assets_frontend.0.css HTTP/1.1" 200 - 4 0.002 0.019
+2019-12-16 15:24:34,589 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:34] "GET /web/content/347-ac469e7/1/website.assets_editor.0.css HTTP/1.1" 200 - 4 0.001 0.005
+2019-12-16 15:24:35,095 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:35] "GET /web/content/432-da87d65/1/web.assets_frontend.js HTTP/1.1" 200 - 4 0.003 0.008
+2019-12-16 15:24:35,116 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:35] "GET /web/content/431-cd59077/1/web.assets_common.js HTTP/1.1" 200 - 4 0.003 0.029
+2019-12-16 15:24:35,163 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:35] "GET /web/content/350-9ec6448/1/web_editor.summernote.js HTTP/1.1" 200 - 4 0.001 0.008
+2019-12-16 15:24:35,280 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:35] "GET /web/content/351-8ffa645/1/web_editor.assets_editor.js HTTP/1.1" 200 - 4 0.001 0.009
+2019-12-16 15:24:35,937 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:35] "GET /web/content/352-ac469e7/1/website.assets_editor.js HTTP/1.1" 200 - 4 0.001 0.006
+2019-12-16 15:24:36,074 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:36] "GET /web/image/res.company/1/logo?unique=99c31df HTTP/1.1" 200 - 17 0.009 0.018
+2019-12-16 15:24:38,928 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:38] "POST /web/dataset/call HTTP/1.1" 200 - 12 0.007 0.011
+2019-12-16 15:24:38,955 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:38] "POST /website/translations HTTP/1.1" 200 - 13 0.036 0.015
+2019-12-16 15:24:38,957 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:38] "GET /web/webclient/locale/es_CO HTTP/1.1" 200 - 1 0.000 0.013
+2019-12-16 15:24:39,125 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:39] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2019-12-16 15:24:39,295 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:39] "GET /website/static/src/xml/website.xml HTTP/1.1" 200 - - - -
+2019-12-16 15:24:39,521 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:39] "GET /website/static/src/xml/website.editor.xml HTTP/1.1" 200 - - - -
+2019-12-16 15:24:39,687 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:39] "GET /web/image/website/1/favicon/ HTTP/1.1" 200 - 4 0.001 0.004
+2019-12-16 15:24:39,740 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:39] "GET /web_editor/static/src/xml/editor.xml HTTP/1.1" 200 - - - -
+2019-12-16 15:24:40,098 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 15:24:40] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 9 0.007 0.005
+2019-12-16 15:25:05,943 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 15:25:05,961 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 15:25:05,974 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 15:25:05,998 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 15:25:06,007 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 15:25:06,038 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2019-12-16 15:25:06,167 1487 INFO comercio-v2 odoo.addons.base.models.ir_attachment: filestore gc 12 checked, 3 removed 
+2019-12-16 15:25:06,309 1487 INFO comercio-v2 odoo.addons.base.models.ir_autovacuum: GC'd 1 user log entries 
+2019-12-16 15:25:06,312 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2019-12-16 15:25:06,323 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Account; Reverse entries`. 
+2019-12-16 15:25:06,334 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2019-12-16 15:25:06,439 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 15:25:06,454 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Publisher: Update Notification`. 
+2019-12-16 15:25:06,940 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2019-12-16 15:29:07,389 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 15:39:07,931 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 15:41:08,066 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 15:41:08,084 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 15:49:08,557 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 15:59:09,135 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 16:08:52,493 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 16:10:54,628 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 16:10:54,643 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 16:11:55,709 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 16:11:55,720 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 16:11:55,728 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 16:19:03,174 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 16:29:10,713 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 16:39:11,282 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 16:41:11,415 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 16:41:11,431 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 16:49:11,927 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 16:59:12,552 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 17:08:54,857 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 17:10:56,991 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 17:10:57,005 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 17:11:58,071 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 17:11:58,081 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 17:11:58,088 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 17:19:05,534 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 17:22:48,136 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 17:22:48] "GET / HTTP/1.1" 200 - 721 0.281 0.614
+2019-12-16 17:22:48,706 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 17:22:48] "POST /website/translations HTTP/1.1" 200 - 11 0.009 0.014
+2019-12-16 17:22:48,975 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 17:22:48] "POST /web/dataset/call HTTP/1.1" 200 - 12 0.006 0.008
+2019-12-16 17:22:49,389 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 17:22:49] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 9 0.003 0.005
+2019-12-16 17:29:14,220 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 17:39:14,820 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 17:41:14,952 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 17:41:14,967 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 17:49:15,463 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 17:59:16,057 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 18:08:57,407 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 18:10:59,537 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 18:10:59,553 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 18:12:00,618 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 18:12:00,628 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 18:12:00,636 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 18:15:59,128 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:15:59] "GET /web HTTP/1.1" 200 - 603 0.281 0.555
+2019-12-16 18:15:59,357 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:15:59] "GET /web/content/419-cd59077/web.assets_common.0.css HTTP/1.1" 200 - 7 0.004 0.006
+2019-12-16 18:15:59,494 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:15:59] "GET /web/content/462-36e86ea/web.assets_backend.0.css HTTP/1.1" 200 - 4 0.005 0.015
+2019-12-16 18:15:59,495 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:15:59] "GET /web/content/249-9ec6448/web_editor.summernote.0.css HTTP/1.1" 200 - 4 0.005 0.013
+2019-12-16 18:15:59,495 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:15:59] "GET /web/content/463-36e86ea/web.assets_backend.1.css HTTP/1.1" 200 - 4 0.004 0.015
+2019-12-16 18:15:59,503 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:15:59] "GET /web/content/338-8ffa645/web_editor.assets_editor.0.css HTTP/1.1" 200 - 4 0.004 0.010
+2019-12-16 18:15:59,516 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:15:59] "GET /web/content/422-cd59077/web.assets_common.js HTTP/1.1" 200 - 4 0.003 0.025
+2019-12-16 18:16:01,523 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:01] "GET /web/content/464-36e86ea/web.assets_backend.js HTTP/1.1" 200 - 4 0.001 0.027
+2019-12-16 18:16:01,973 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:01] "GET /web/content/253-9ec6448/web_editor.summernote.js HTTP/1.1" 200 - 4 0.001 0.006
+2019-12-16 18:16:02,582 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:02] "GET /web/content/341-8ffa645/web_editor.assets_editor.js HTTP/1.1" 200 - 4 0.001 0.007
+2019-12-16 18:16:02,991 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:02] "GET /web/image/ir.ui.menu/74/web_icon_data HTTP/1.1" 200 - 17 0.005 0.007
+2019-12-16 18:16:03,293 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:03] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-16 18:16:03,613 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:03] "GET /web/image/ir.ui.menu/248/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-16 18:16:04,096 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:04] "GET /web/image/ir.ui.menu/261/web_icon_data HTTP/1.1" 200 - 17 0.007 0.008
+2019-12-16 18:16:04,104 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:04] "GET /web/image/ir.ui.menu/150/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-16 18:16:04,401 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:04] "GET /web/image/ir.ui.menu/179/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-16 18:16:04,467 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:04] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-16 18:16:04,805 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:04] "GET /web/image/ir.ui.menu/196/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-16 18:16:04,816 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:04] "GET /web/image/ir.ui.menu/96/web_icon_data HTTP/1.1" 200 - 16 0.004 0.006
+2019-12-16 18:16:05,181 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:05] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-16 18:16:05,241 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:05] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-16 18:16:07,718 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:07] "GET /web/webclient/qweb?mods=base,web,bus,web_tour,mail,sales_team,calendar,utm,contacts,portal,digest,crm,web_editor,website,product,barcodes,stock,account,payment,sale,sale_management,purchase,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v12,base_import,crm_phonecall,web_settings_dashboard,iap,l10n_co,mail_bot,partner_autocomplete,payment_transfer,sale_stock,sms,snailmail,web_diagram,web_kanban_gauge,web_unsplash,website_mail,website_theme_install HTTP/1.1" 200 - 1 0.000 0.074
+2019-12-16 18:16:07,784 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:07] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.003
+2019-12-16 18:16:07,958 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:07] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.006 0.008
+2019-12-16 18:16:08,095 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:08] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2019-12-16 18:16:09,416 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:09] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.024 0.031
+2019-12-16 18:16:10,255 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:10] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.004
+2019-12-16 18:16:10,273 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:10] "POST /mail/init_messaging HTTP/1.1" 200 - 68 0.059 0.023
+2019-12-16 18:16:10,548 1487 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2019-12-16 18:16:11,337 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:11] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.014 0.010
+2019-12-16 18:16:11,363 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:11] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 15 0.008 0.021
+2019-12-16 18:16:11,446 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:11] "POST /web/action/load HTTP/1.1" 200 - 78 0.077 0.044
+2019-12-16 18:16:11,995 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:11] "POST /web/dataset/call_kw/res.partner/load_views HTTP/1.1" 200 - 203 0.119 0.172
+2019-12-16 18:16:13,406 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 103 0.065 0.057
+2019-12-16 18:16:14,240 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "POST /calendar/notify HTTP/1.1" 200 - 3 0.002 0.004
+2019-12-16 18:16:14,246 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /base/static/img/avatar.png HTTP/1.1" 200 - - - -
+2019-12-16 18:16:14,264 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_small&id=212&unique= HTTP/1.1" 200 - 15 0.010 0.012
+2019-12-16 18:16:14,269 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_small&id=1&unique= HTTP/1.1" 200 - 15 0.014 0.011
+2019-12-16 18:16:14,275 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_medium&id=3&unique= HTTP/1.1" 200 - 15 0.007 0.011
+2019-12-16 18:16:14,509 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_small&id=3&unique= HTTP/1.1" 200 - 15 0.008 0.009
+2019-12-16 18:16:14,517 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_medium&id=7&unique= HTTP/1.1" 200 - 15 0.005 0.009
+2019-12-16 18:16:14,564 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_small&id=7&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 18:16:14,595 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_medium&id=8&unique= HTTP/1.1" 200 - 15 0.003 0.008
+2019-12-16 18:16:14,668 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_small&id=8&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 18:16:14,794 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_medium&id=210&unique= HTTP/1.1" 200 - 15 0.003 0.009
+2019-12-16 18:16:14,843 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:16:14] "GET /web/image?model=res.partner&field=image_small&id=210&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 18:17:00,550 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:17:00] "POST /longpolling/poll HTTP/1.1" 200 - 12 0.006 50.009
+2019-12-16 18:17:00,930 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:17:00] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 108 0.082 0.042
+2019-12-16 18:17:01,247 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:17:01] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 13 0.010 0.009
+2019-12-16 18:17:01,247 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:17:01] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 13 0.010 0.008
+2019-12-16 18:17:01,540 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 18:17:01] "GET /partner_autocomplete/static/lib/jsvat.js HTTP/1.1" 200 - - - -
+2019-12-16 18:17:01,672 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:17:01] "GET /web/image?model=res.partner&id=1&field=image_medium&unique=06122019124517 HTTP/1.1" 200 - 15 0.004 0.010
+2019-12-16 18:17:51,347 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:17:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:18:41,676 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:18:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.008
+2019-12-16 18:19:08,077 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 18:19:32,434 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:19:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.008
+2019-12-16 18:20:22,682 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:20:30,303 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 84 0.022 0.040
+2019-12-16 18:20:32,473 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:32] "POST /web/dataset/call_kw/res.partner/default_get HTTP/1.1" 200 - 43 0.017 0.024
+2019-12-16 18:20:32,806 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:32] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 8 0.006 0.074
+2019-12-16 18:20:33,061 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:33] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 - 13 0.005 0.007
+2019-12-16 18:20:33,095 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:33] "POST /web/dataset/call_kw/account.account/name_get HTTP/1.1" 200 - 11 0.005 0.006
+2019-12-16 18:20:33,337 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:33] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-16 18:20:33,361 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:33] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-16 18:20:33,947 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 18:20:33] "GET /web/static/src/img/placeholder.png HTTP/1.1" 200 - - - -
+2019-12-16 18:21:12,933 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:21:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:22:03,180 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:22:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:22:53,539 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:22:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:23:43,920 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:23:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:24:34,234 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:24:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:25:24,624 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:25:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.008
+2019-12-16 18:25:24,867 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:25:24] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 5 0.003 0.011
+2019-12-16 18:25:33,609 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:25:33] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 5 0.003 0.011
+2019-12-16 18:25:45,921 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:25:45] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 4 0.004 0.020
+2019-12-16 18:25:45,927 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:25:45] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.002 0.008
+2019-12-16 18:25:49,418 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:25:49] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 14 0.009 0.017
+2019-12-16 18:26:06,177 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:06] "POST /web/dataset/call_kw/res.partner/get_formview_id HTTP/1.1" 200 - 1 0.000 0.003
+2019-12-16 18:26:06,510 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:06] "POST /web/dataset/call_kw/res.partner/load_views HTTP/1.1" 200 - 58 0.024 0.085
+2019-12-16 18:26:09,211 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:09] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 68 0.032 0.047
+2019-12-16 18:26:12,017 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:12] "GET /web/static/src/img/spin.png HTTP/1.1" 200 - - - -
+2019-12-16 18:26:12,290 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:12] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-16 18:26:12,301 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:12] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 5 0.002 0.005
+2019-12-16 18:26:12,779 1487 INFO ? werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:12] "GET /web/static/src/xml/dialog.xml HTTP/1.1" 200 - - - -
+2019-12-16 18:26:15,343 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:26:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:27:04,671 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 84 0.024 0.040
+2019-12-16 18:27:05,685 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:27:39,480 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:39] "POST /web/dataset/call_kw/res.partner/default_get HTTP/1.1" 200 - 2 0.001 0.004
+2019-12-16 18:27:39,802 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:39] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 7 0.004 0.060
+2019-12-16 18:27:40,115 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:40] "POST /web/dataset/call_kw/account.account/name_get HTTP/1.1" 200 - 3 0.002 0.006
+2019-12-16 18:27:40,119 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:40] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 - 5 0.002 0.006
+2019-12-16 18:27:40,372 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:40] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 5 0.003 0.007
+2019-12-16 18:27:40,372 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:40] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 5 0.003 0.007
+2019-12-16 18:27:56,245 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:27:58,941 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:27:58] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 5 0.003 0.011
+2019-12-16 18:28:05,949 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:28:05] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 5 0.003 0.011
+2019-12-16 18:28:15,243 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:28:15] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 4 0.003 0.010
+2019-12-16 18:28:15,359 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:28:15] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.001 0.006
+2019-12-16 18:28:21,254 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:28:21] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 11 0.006 0.018
+2019-12-16 18:28:46,602 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:28:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:28:54,446 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:28:54] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 - 5 0.003 0.021
+2019-12-16 18:29:17,724 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 18:29:24,887 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:29:24] "POST /web/dataset/call_kw/res.partner.title/name_search HTTP/1.1" 200 - 5 0.005 0.004
+2019-12-16 18:29:36,862 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:29:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:30:27,154 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:30:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:31:17,446 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:31:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:32:08,415 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:32:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:32:58,657 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:32:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:33:48,902 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:33:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:34:39,303 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:34:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:35:29,545 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:35:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:36:20,212 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:36:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:37:10,458 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:37:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:38:00,700 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:38:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:38:51,865 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:38:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:39:18,233 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 18:39:42,209 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:39:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:40:32,447 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:40:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:41:18,355 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 18:41:18,370 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 18:41:22,681 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:41:22] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-16 18:42:13,623 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:42:13] "POST /longpolling/poll HTTP/1.1" 200 - 22 0.009 50.010
+2019-12-16 18:43:03,862 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:43:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:43:54,399 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:43:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:44:44,772 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:44:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:45:35,641 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:45:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:46:27,797 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:46:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:47:18,556 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:47:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:48:08,788 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:48:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:48:59,100 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:48:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:49:18,825 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 18:49:49,467 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:49:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:50:39,964 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:50:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:51:31,323 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:51:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:52:21,669 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:52:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:53:11,916 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:53:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:54:02,750 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:54:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:55:24,783 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:55:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:56:15,087 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:56:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:57:05,365 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:57:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:57:56,609 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:57:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 18:58:46,836 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:58:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 18:59:19,414 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 18:59:37,082 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 18:59:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:00:27,447 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:00:33,027 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:33] "POST /web/dataset/call_kw/res.partner/create HTTP/1.1" 200 - 255 0.122 0.123
+2019-12-16 19:00:33,397 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:33] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 131 0.065 0.050
+2019-12-16 19:00:34,632 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:34] "POST /mail/read_followers HTTP/1.1" 200 - 10 0.004 0.007
+2019-12-16 19:00:34,670 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:34] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 26 0.013 0.013
+2019-12-16 19:00:34,843 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:34] "GET /web/image?model=res.partner&id=259&field=image_medium&unique=16122019140032 HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 19:00:34,924 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:34] "GET /web/image/res.partner/3/image_small HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 19:00:39,849 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 91 0.025 0.050
+2019-12-16 19:00:40,743 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:40] "GET /web/image?model=res.partner&field=image_medium&id=259&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 19:00:40,756 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:40] "GET /web/image?model=res.partner&field=image_small&id=259&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 19:00:44,381 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:00:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.009 0.015
+2019-12-16 19:01:19,376 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:01:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:02:09,603 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:02:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:02:59,969 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:02:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:04:17,472 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:04:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:05:08,256 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:05:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:06:27,203 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:06:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:07:18,098 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:07:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:08:15,024 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:08:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:09:00,064 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 19:09:06,358 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:09:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:09:56,595 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:09:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:10:48,391 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:10:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:11:02,108 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 19:11:02,123 1487 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 19:11:20,053 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 19:12:03,189 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 19:12:03,197 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 19:12:05,354 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:12:05] "POST /longpolling/poll HTTP/1.1" 200 - 24 0.009 50.010
+2019-12-16 19:12:58,951 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:12:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:13:50,165 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:13:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:15:06,293 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:15:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:15:56,860 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:15:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:16:47,208 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:16:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:17:37,982 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:17:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:18:29,024 1487 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 19:18:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 19:19:10,613 1487 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 19:19:43,014 1487 INFO ? odoo.service.server: Initiating shutdown 
+2019-12-16 19:19:43,014 1487 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2019-12-16 20:51:37,401 1402 INFO ? odoo: Odoo version 12.0 
+2019-12-16 20:51:37,402 1402 INFO ? odoo: Using configuration file at /opt/config/odoo12.conf 
+2019-12-16 20:51:37,402 1402 INFO ? odoo: addons paths: ['/opt/odoosrc/data/addons/12.0', '/opt/odoosrc/extra-addons', '/opt/odoosrc/12.0/odoo/addons', '/opt/odoosrc/12.0/odoo/odoo/addons'] 
+2019-12-16 20:51:37,402 1402 INFO ? odoo: database: default@default:default 
+2019-12-16 20:51:37,599 1402 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2019-12-16 20:51:37,892 1402 INFO ? odoo.service.server: HTTP service (werkzeug) running on ip-172-31-10-159.us-east-2.compute.internal:1269 
+2019-12-16 20:56:17,016 1402 INFO ? odoo.http: HTTP Configuring static files 
+2019-12-16 20:56:17,089 1402 INFO comercio-v2 odoo.modules.loading: loading 1 modules... 
+2019-12-16 20:56:17,103 1402 INFO comercio-v2 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2019-12-16 20:56:17,175 1402 INFO comercio-v2 odoo.modules.loading: loading 59 modules... 
+2019-12-16 20:56:17,543 1402 INFO comercio-v2 odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it. 
+2019-12-16 20:56:18,066 1402 INFO comercio-v2 odoo.modules.loading: 59 modules loaded in 0.89s, 0 queries 
+2019-12-16 20:56:18,659 1402 INFO comercio-v2 odoo.fields: Field stock.production.lot.product_uom_id depends on non-stored field product.product.uom_id 
+2019-12-16 20:56:18,660 1402 INFO comercio-v2 odoo.fields: Field stock.picking.move_ids_without_package depends on non-stored field stock.move.picking_type_entire_packs 
+2019-12-16 20:56:18,660 1402 INFO comercio-v2 odoo.fields: Field stock.picking.move_line_ids_without_package depends on non-stored field stock.move.line.picking_type_entire_packs 
+2019-12-16 20:56:18,681 1402 INFO comercio-v2 odoo.fields: Field purchase.order.line.product_uom_qty depends on non-stored field product.product.uom_id 
+2019-12-16 20:56:18,685 1402 INFO comercio-v2 odoo.modules.loading: Modules loaded. 
+2019-12-16 20:56:18,697 1402 INFO comercio-v2 odoo.addons.base.models.ir_http: Generating routing map 
+2019-12-16 20:56:19,861 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:19] "GET /web HTTP/1.1" 200 - 627 0.646 2.197
+2019-12-16 20:56:20,625 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:20] "GET /web/image/ir.ui.menu/74/web_icon_data HTTP/1.1" 200 - 179 0.180 0.143
+2019-12-16 20:56:20,634 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:20] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 200 - 177 0.178 0.140
+2019-12-16 20:56:20,700 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:20] "GET /web/webclient/qweb?mods=base,web,bus,web_tour,mail,sales_team,calendar,utm,contacts,portal,digest,crm,web_editor,website,product,barcodes,stock,account,payment,sale,sale_management,purchase,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v12,base_import,crm_phonecall,web_settings_dashboard,iap,l10n_co,mail_bot,partner_autocomplete,payment_transfer,sale_stock,sms,snailmail,web_diagram,web_kanban_gauge,web_unsplash,website_mail,website_theme_install HTTP/1.1" 200 - 1 0.001 0.106
+2019-12-16 20:56:20,715 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:20] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.003
+2019-12-16 20:56:20,951 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:20] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 200 - 16 0.008 0.009
+2019-12-16 20:56:20,955 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:20] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.010 0.009
+2019-12-16 20:56:21,328 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:21] "GET /web/image/ir.ui.menu/150/web_icon_data HTTP/1.1" 200 - 16 0.014 0.009
+2019-12-16 20:56:21,329 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:21] "GET /web/image/ir.ui.menu/196/web_icon_data HTTP/1.1" 200 - 16 0.013 0.009
+2019-12-16 20:56:23,451 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:23] "GET /web/image/ir.ui.menu/96/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-16 20:56:23,824 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:23] "GET /web/image/ir.ui.menu/261/web_icon_data HTTP/1.1" 200 - 17 0.004 0.007
+2019-12-16 20:56:24,789 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:24] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-16 20:56:25,244 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:25] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-16 20:56:25,643 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:25] "GET /web/image/ir.ui.menu/179/web_icon_data HTTP/1.1" 200 - 16 0.004 0.007
+2019-12-16 20:56:25,981 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:25] "GET /web/image/ir.ui.menu/248/web_icon_data HTTP/1.1" 200 - 16 0.005 0.007
+2019-12-16 20:56:29,555 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:29] "POST /web/webclient/translations HTTP/1.1" 200 - 8 0.032 0.031
+2019-12-16 20:56:30,558 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:30] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.069 0.024
+2019-12-16 20:56:30,791 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:30] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 35 0.015 0.054
+2019-12-16 20:56:30,807 1402 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2019-12-16 20:56:32,110 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:32] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.017 0.009
+2019-12-16 20:56:32,337 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:32] "POST /web/action/load HTTP/1.1" 200 - 79 0.076 0.046
+2019-12-16 20:56:33,233 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:33] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 14 0.006 0.012
+2019-12-16 20:56:33,977 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:33] "POST /web/dataset/call_kw/res.partner/load_views HTTP/1.1" 200 - 203 0.150 0.228
+2019-12-16 20:56:35,741 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 110 0.088 0.068
+2019-12-16 20:56:36,697 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "POST /calendar/notify HTTP/1.1" 200 - 3 0.006 0.005
+2019-12-16 20:56:36,714 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_small&id=212&unique= HTTP/1.1" 200 - 15 0.016 0.011
+2019-12-16 20:56:36,732 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_small&id=1&unique= HTTP/1.1" 200 - 15 0.018 0.019
+2019-12-16 20:56:36,735 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_medium&id=3&unique= HTTP/1.1" 200 - 15 0.021 0.014
+2019-12-16 20:56:36,737 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_medium&id=259&unique= HTTP/1.1" 200 - 15 0.014 0.021
+2019-12-16 20:56:36,941 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_small&id=3&unique= HTTP/1.1" 200 - 15 0.010 0.011
+2019-12-16 20:56:36,944 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_medium&id=7&unique= HTTP/1.1" 200 - 15 0.008 0.015
+2019-12-16 20:56:36,952 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_small&id=7&unique= HTTP/1.1" 200 - 15 0.004 0.012
+2019-12-16 20:56:36,985 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:36] "GET /web/image?model=res.partner&field=image_medium&id=8&unique= HTTP/1.1" 200 - 15 0.003 0.009
+2019-12-16 20:56:37,139 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:37] "GET /web/image?model=res.partner&field=image_small&id=8&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 20:56:37,262 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:37] "GET /web/image?model=res.partner&field=image_small&id=210&unique= HTTP/1.1" 200 - 15 0.013 0.012
+2019-12-16 20:56:37,262 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:37] "GET /web/image?model=res.partner&field=image_small&id=259&unique= HTTP/1.1" 200 - 15 0.011 0.013
+2019-12-16 20:56:37,266 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:56:37] "GET /web/image?model=res.partner&field=image_medium&id=210&unique= HTTP/1.1" 200 - 15 0.007 0.020
+2019-12-16 20:56:37,927 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 20:56:37,951 1402 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 20:56:37,955 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 20:56:37,967 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 20:56:37,975 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 20:56:37,983 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 20:57:00,865 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:57:00] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 155 0.137 0.057
+2019-12-16 20:57:03,796 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:57:03] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 12 0.008 0.010
+2019-12-16 20:57:03,797 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:57:03] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 13 0.010 0.009
+2019-12-16 20:57:04,251 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:57:04] "POST /mail/read_followers HTTP/1.1" 200 - 12 0.009 0.007
+2019-12-16 20:57:04,287 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:57:04] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 36 0.018 0.017
+2019-12-16 20:57:04,622 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:57:04] "GET /web/image/res.partner/3/image_small HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 20:57:20,809 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:57:20] "POST /longpolling/poll HTTP/1.1" 200 - 12 0.008 50.008
+2019-12-16 20:58:11,052 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:58:11] "POST /longpolling/poll HTTP/1.1" 200 - 16 0.007 50.009
+2019-12-16 20:59:01,909 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:59:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.008
+2019-12-16 20:59:38,102 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 20:59:52,161 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 20:59:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:00:42,410 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:00:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:01:32,762 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:01:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:02:23,169 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:02:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:03:13,419 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:03:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:04:03,782 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:04:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:04:54,155 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:04:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:05:44,515 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:05:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:06:34,758 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:06:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:07:25,323 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:07:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 21:08:16,087 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:08:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:08:55,853 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 21:09:06,444 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:09:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:10:03,826 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:10:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:10:38,735 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 21:10:38,751 1402 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 21:10:54,085 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:10:54] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-16 21:11:38,816 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 21:11:38,826 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 21:11:38,834 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 21:11:44,883 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:11:44] "POST /longpolling/poll HTTP/1.1" 200 - 22 0.009 50.010
+2019-12-16 21:12:35,263 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:12:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:13:25,802 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:13:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:14:17,139 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:14:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:15:07,467 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:15:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 21:15:30,679 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:15:30] "POST /web/dataset/call_kw/res.partner/write HTTP/1.1" 200 - 63 0.031 0.192
+2019-12-16 21:15:31,036 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:15:31] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 143 0.070 0.054
+2019-12-16 21:15:31,988 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:15:31] "GET /web/image?model=res.partner&id=259&field=image_medium&unique=16122019161530 HTTP/1.1" 200 - 16 0.004 0.008
+2019-12-16 21:15:58,632 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:15:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:16:31,288 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:16:31] "POST /web/dataset/call_kw/res.partner/write HTTP/1.1" 200 - 43 0.010 0.160
+2019-12-16 21:16:33,136 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:16:33] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 73 0.028 0.037
+2019-12-16 21:16:35,300 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:16:35] "GET /web/image?model=res.partner&id=259&field=image_medium&unique=16122019161631 HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 21:16:48,868 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:16:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:17:41,848 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:17:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:18:13,068 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:18:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 91 0.025 0.052
+2019-12-16 21:18:32,332 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:18:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 21:19:06,393 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 21:19:58,080 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:19:58] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.009 0.014
+2019-12-16 21:20:00,354 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:20:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:20:50,595 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:20:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:21:05,725 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:21:05] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 73 0.030 0.048
+2019-12-16 21:21:09,916 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:21:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.009 0.015
+2019-12-16 21:21:14,793 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:21:14] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 73 0.040 0.038
+2019-12-16 21:21:19,722 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:21:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.009 0.015
+2019-12-16 21:21:40,822 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:21:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:22:20,158 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:22:20] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 73 0.037 0.038
+2019-12-16 21:22:23,209 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:22:23] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.010 0.014
+2019-12-16 21:22:27,357 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:22:27] "POST /web/dataset/call_kw/res.partner/load_views HTTP/1.1" 200 - 251 0.106 0.189
+2019-12-16 21:22:31,056 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:22:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:23:19,200 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 91 0.026 0.051
+2019-12-16 21:23:20,506 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_medium&id=8&unique= HTTP/1.1" 200 - 15 0.004 0.009
+2019-12-16 21:23:20,537 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_medium&id=3&unique= HTTP/1.1" 200 - 15 0.015 0.015
+2019-12-16 21:23:20,540 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_medium&id=7&unique= HTTP/1.1" 200 - 15 0.017 0.013
+2019-12-16 21:23:20,542 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_small&id=3&unique= HTTP/1.1" 200 - 15 0.013 0.020
+2019-12-16 21:23:20,734 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_small&id=212&unique= HTTP/1.1" 200 - 15 0.003 0.008
+2019-12-16 21:23:20,777 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_small&id=7&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 21:23:20,844 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_small&id=8&unique= HTTP/1.1" 200 - 15 0.004 0.062
+2019-12-16 21:23:20,874 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:20] "GET /web/image?model=res.partner&field=image_medium&id=210&unique= HTTP/1.1" 200 - 15 0.003 0.007
+2019-12-16 21:23:21,506 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:21] "GET /web/image?model=res.partner&field=image_small&id=210&unique= HTTP/1.1" 200 - 15 0.004 0.008
+2019-12-16 21:23:21,626 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:23:56,101 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:56] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 73 0.028 0.037
+2019-12-16 21:23:56,362 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:56] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 13 0.009 0.009
+2019-12-16 21:23:56,362 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:56] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 - 13 0.009 0.008
+2019-12-16 21:23:57,189 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:23:57] "POST /mail/read_followers HTTP/1.1" 200 - 11 0.005 0.007
+2019-12-16 21:24:11,868 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:24:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:25:02,100 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:25:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:25:52,341 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:25:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:26:18,920 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:26:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 91 0.025 0.051
+2019-12-16 21:26:42,191 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:26:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 26 0.009 0.014
+2019-12-16 21:26:42,566 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:26:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:27:32,789 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:27:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:28:23,159 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:28:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:29:13,416 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:29:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:29:16,997 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 21:30:04,689 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:30:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:30:54,952 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:30:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:31:46,174 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:31:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:32:36,415 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:32:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 21:33:26,680 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:33:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:34:17,553 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:34:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:35:08,641 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:35:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:35:59,590 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:35:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.012
+2019-12-16 21:36:50,715 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:36:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:37:40,952 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:37:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:38:31,443 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:38:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:39:21,676 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:39:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:39:27,541 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 21:40:12,958 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:40:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:40:40,425 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 21:40:40,441 1402 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 21:41:04,982 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:41:04] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.004 50.009
+2019-12-16 21:41:55,276 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:41:55] "POST /longpolling/poll HTTP/1.1" 200 - 22 0.009 50.010
+2019-12-16 21:42:46,128 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:42:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:43:37,883 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:43:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:44:28,847 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:44:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:45:20,942 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:45:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:46:14,703 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:46:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:47:05,953 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:47:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:47:56,792 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:47:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:48:47,933 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:48:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:49:38,177 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 21:49:38,578 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:49:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:50:32,433 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:50:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:51:22,860 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:51:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:52:13,285 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:52:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:53:03,555 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:53:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:53:54,516 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:53:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:54:44,756 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:54:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:55:35,402 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:55:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:56:25,886 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:56:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:57:19,245 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:57:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:58:10,400 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:58:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:59:01,016 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:59:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 21:59:41,479 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 21:59:51,279 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 21:59:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:00:41,992 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:00:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:01:33,520 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:01:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:02:24,437 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:02:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.008
+2019-12-16 22:03:14,792 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:03:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:04:06,640 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:04:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:04:58,131 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:04:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:05:48,583 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:05:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:06:38,845 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:06:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:07:29,342 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:07:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:08:19,674 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:08:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:08:58,362 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 22:09:20,390 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:09:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:10:15,130 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:10:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:10:42,141 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 22:10:42,156 1402 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 22:11:08,931 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:11:08] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.004 50.009
+2019-12-16 22:11:42,170 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2019-12-16 22:11:42,180 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2019-12-16 22:11:42,188 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2019-12-16 22:11:59,491 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:11:59] "POST /longpolling/poll HTTP/1.1" 200 - 22 0.009 50.010
+2019-12-16 22:12:49,741 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:12:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:13:39,979 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:13:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:14:30,219 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:14:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:15:23,257 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:15:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:16:13,634 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:16:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:17:04,320 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:17:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 22:17:55,174 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:17:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:18:45,554 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:18:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:19:08,997 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 22:19:35,824 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:19:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:20:26,134 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:20:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:21:16,889 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:21:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.014
+2019-12-16 22:22:08,697 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:22:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:22:59,900 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:22:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:23:50,147 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:23:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:24:40,870 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:24:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:25:31,128 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:25:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:26:21,669 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:26:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:27:12,031 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:27:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:28:02,308 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:28:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:28:52,570 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:28:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:29:19,520 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 22:29:42,932 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:29:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 22:30:34,288 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:30:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:31:24,675 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:31:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:32:14,931 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:32:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 22:33:05,522 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:33:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:34:38,299 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:34:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:35:45,200 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:35:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:36:35,462 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:36:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:37:26,305 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:37:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:38:16,666 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:38:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:39:06,903 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:39:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:39:30,012 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 22:39:57,144 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:39:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:40:43,911 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2019-12-16 22:40:43,927 1402 INFO comercio-v2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2019-12-16 22:40:47,389 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:40:47] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.003 50.008
+2019-12-16 22:41:37,647 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:41:37] "POST /longpolling/poll HTTP/1.1" 200 - 22 0.009 50.010
+2019-12-16 22:42:28,016 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:42:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:43:18,275 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:43:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:44:12,638 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:44:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:45:02,880 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:45:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:45:54,770 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:45:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:46:45,017 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:46:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.009
+2019-12-16 22:47:35,545 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:47:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:48:25,775 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:48:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:49:16,135 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:49:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:49:40,648 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 22:50:07,408 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:50:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:50:58,265 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:50:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:51:49,411 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:51:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2019-12-16 22:52:39,633 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:52:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:53:30,072 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:53:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.013
+2019-12-16 22:54:20,315 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:54:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:55:10,702 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:55:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:56:01,950 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:56:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:56:52,806 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:56:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:57:43,088 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:57:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:58:33,471 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:58:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:59:23,702 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 22:59:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 22:59:45,049 1402 INFO comercio-v2 odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2019-12-16 23:00:14,423 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 23:00:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 23:01:04,653 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 23:01:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 23:01:55,457 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 23:01:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 23:02:46,681 1402 INFO comercio-v2 werkzeug: 181.51.32.160 - - [16/Dec/2019 23:02:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.008
+2019-12-16 23:06:29,714 1402 INFO ? odoo.service.server: Initiating shutdown 
+2019-12-16 23:06:29,714 1402 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
