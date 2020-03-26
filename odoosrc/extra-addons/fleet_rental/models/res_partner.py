@@ -26,16 +26,76 @@ class ResPartner(models.Model):
     _description = "Partner Rent a Car"
 
 	# Boolean if Company is customer's job
-    is_company_customer_job = fields.Boolean(string="¿Es empresa donde trabaja el cliente?")
-	# Boolean if Company is familiy reference's job
-    is_company_family_ref_job = fields.Boolean(string="¿Es empresa donde trabaja la referencia familiar?")
-	# Boolean if Company is personal reference's job
-    is_company_personal_ref_job = fields.Boolean(string="¿Es empresa donde trabaja la referencia personal?")
-	# Boolean if Company is commercial reference's job
-    is_company_commercial_ref_job = fields.Boolean(string="¿Es empresa donde trabaja la referencia comercial?")
-	# Boolean if Company customer's hotel hoster
-    is_hotel_customer_host = fields.Boolean(string="¿Es hotel donde se hospeda el cliente?")
+    x_is_company_customer_job = fields.Boolean(string="¿Es empresa donde trabaja el cliente?")
 
+	# Boolean if Company is familiy reference's job
+    x_is_company_family_ref_job = fields.Boolean(string="¿Es empresa donde trabaja la referencia familiar?")
+
+	# Boolean if Company is personal reference's job
+    x_is_company_personal_ref_job = fields.Boolean(string="¿Es empresa donde trabaja la referencia personal?")
+
+	# Boolean if Company is commercial reference's job
+    x_is_company_commercial_ref_job = fields.Boolean(string="¿Es empresa donde trabaja la referencia comercial?")
+
+	# Boolean if Company customer's hotel hoster
+    x_is_hotel_customer_host = fields.Boolean(string="¿Es hotel donde se hospeda el cliente?")
+
+    # City origin of ID document
+    x_city_id_document = fields.Char('Ciudad Expedición Documento')
+
+    # Driver License Number
+    x_driver_license_number = fields.Char("Número de Licencia")
+
+    # Driver license generate's day
+    x_license_generates_day = fields.Date("Fecha Expedición Licencia")
+
+
+	# Company customer's job
+    x_company_customer_job = fields.Many2one('res.partner',string='Empresa donde Trabaja',  domain=[('is_company', '=', True)])
+
+    # Familiy reference's
+    x_person_family_ref = fields.Many2one('res.partner',
+        string='Persona Referencia Familiar',
+        domain=[('is_company', '=', False)])
+	
+    # Familiy reference's job
+    x_company_family_ref_job = fields.Many2one('res.partner',
+        string='Empresa donde Trabaja la referencia Familiar',
+        domain=[('is_company', '=', True)])
+
+
+    # Personal reference's
+    x_person_personal_ref = fields.Many2one('res.partner',
+        string='Persona Referencia Personal',
+        domain=[('is_company', '=', False)])
+	
+    # Familiy reference's job
+    x_company_personal_ref_job = fields.Many2one('res.partner',
+        string='Empresa donde Trabaja la Referencia Personal',
+        domain=[('is_company', '=', True)])
+
+
+    # Commercial reference's
+    x_person_commercial_ref = fields.Many2one('res.partner',
+        string='Persona Referencia Comercial',
+        domain=[('is_company', '=', False)])
+	
+    # Commercial reference's job
+    x_company_commercial_ref_job = fields.Many2one('res.partner',
+        string='Empresa donde Trabaja la Referencia Comercial',
+        domain=[('is_company', '=', True)])
+
+
+    # Customer's hotel hoster
+    x_company_hotel_customer_host = fields.Many2one('res.partner',
+        string='Hotel donde se Hospeda',
+        domain=['|',('is_company', '=', True),('x_is_hotel_customer_host', '=', True)])
+
+    # room
+    x_hotel_room = fields.Char("Habitación")
+
+    # Check in day
+    x_checkin_day = fields.Date("Fecha de Hospedaje")
 
 
 

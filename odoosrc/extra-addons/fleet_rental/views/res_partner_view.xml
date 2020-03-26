@@ -3,22 +3,66 @@
     <data>
         <!-- Extending Partner Form View -->
         <record model="ir.ui.view" id="rental_fleet_partner_inherit_form_view">
-                <field name="name">res.partner.form.inherit.view</field>
-                <field name="model">res.partner</field>
-                <field name="inherit_id" ref="base.view_partner_form"/>
-                <field name="arch" type="xml">
-                    <xpath expr="//form/sheet/notebook" position="inside">
-                        <page name="fleet_rental" string="Rentadora Autos">
-                            <group >
-                                <field name="is_company_customer_job" />
-                                <field name="is_company_family_ref_job" />
-                                <field name="is_company_personal_ref_job" />
-                                <field name="is_company_commercial_ref_job" />
-                                <field name="is_hotel_customer_host" />
-                            </group>
-                        </page>
-                    </xpath>
+            <field name="name">res.partner.form.inherit.view</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet/notebook" position="inside">
+                    <page name="fleet_rental" string="Rentadora Autos" attrs="{'invisible':['|',('is_company', '=', False)]}">
+                        <group >
+                            <field name="x_is_company_customer_job" />
+                               <separator/>
+                            <field name="x_is_company_family_ref_job" />
+                               <separator/>
+                            <field name="x_is_company_personal_ref_job" />
+                               <separator/>
+                            <field name="x_is_company_commercial_ref_job" />
+                               <separator/>
+                            <field name="x_is_hotel_customer_host" />
+                        </group>
+                    </page>
+                </xpath>
+                <field name="type" position="after">
+                    <field name="x_city_id_document" placeholder="Ciudad Expedición Documento"
+                       attrs="{'invisible':['|',('is_company', '=', True)]}" />
+                       <separator/>
+                    <field name="x_driver_license_number" placeholder="Número de Licencia"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_license_generates_day" placeholder="Fecha Expedición Licencia"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_company_customer_job" placeholder="Empresa donde Trabaja"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_person_family_ref" placeholder="Persona Referencia Familiar"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_company_family_ref_job" placeholder="Empresa donde Trabaja la referencia Familiar"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_person_personal_ref" placeholder="Persona Referencia Personal"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_company_personal_ref_job" placeholder="Empresa donde Trabaja la Referencia Personal"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_person_commercial_ref" placeholder="Persona Referencia Comercial"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_company_commercial_ref_job" placeholder="Empresa donde Trabaja la Referencia Comercial"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_company_hotel_customer_host" placeholder="Hotel donde se Hospeda"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_hotel_room" placeholder="Habitación"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
+                       <separator/>
+                    <field name="x_checkin_day" placeholder="Fecha Hospedaje"
+                       attrs="{'invisible':['|',('is_company', '=', True),('customer', '=', False)]}" />
                 </field>
+            </field>
         </record>
     </data>
 </odoo>

@@ -87,7 +87,7 @@
                        options="{'horizontal': true}"/>
 
                 <field name="is_company" class="oe_inline" modifiers="{}"/>
-                <label for="is_company" string="Is it a Company?"/>
+                <label for="is_company" string="¿Es una Empresa?"/>
             </field>
 
             <field name="parent_id" position="before">
