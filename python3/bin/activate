@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3'
+VIRTUAL_ENV='/home/sanjose/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

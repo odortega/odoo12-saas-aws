@@ -1,4 +1,4 @@
-#!/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3/bin/python
+#!/home/sanjose/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

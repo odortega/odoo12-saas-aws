@@ -19,5 +19,6 @@
 
 from . import car_rental
 from . import fleet
+from . import res_partner
 
 

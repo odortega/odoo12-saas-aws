@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <!-- Extending Partner Form View -->
+        <record model="ir.ui.view" id="rental_fleet_partner_inherit_form_view">
+                <field name="name">res.partner.form.inherit.view</field>
+                <field name="model">res.partner</field>
+                <field name="inherit_id" ref="base.view_partner_form"/>
+                <field name="arch" type="xml">
+                    <xpath expr="//form/sheet/notebook" position="inside">
+                        <page name="fleet_rental" string="Rentadora Autos">
+                            <group >
+                                <field name="is_company_customer_job" />
+                                <field name="is_company_family_ref_job" />
+                                <field name="is_company_personal_ref_job" />
+                                <field name="is_company_commercial_ref_job" />
+                                <field name="is_hotel_customer_host" />
+                            </group>
+                        </page>
+                    </xpath>
+                </field>
+        </record>
+    </data>
+</odoo>

@@ -32,6 +32,7 @@
              'views/car_rental_view.xml',
              'views/checklist_view.xml',
              'views/car_tools_view.xml',
+             'views/res_partner_view.xml',
              'reports/rental_report.xml',
              'data/fleet_rental_data.xml',
              ],

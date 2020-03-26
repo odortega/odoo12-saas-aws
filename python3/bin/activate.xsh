@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3"
+$VIRTUAL_ENV = r"/home/sanjose/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

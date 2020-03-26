@@ -57,7 +57,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/jonathan/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3'
+set -gx VIRTUAL_ENV '/home/sanjose/ODO/MOOGO/sanjose/web/python/aws/odoo12-saas-aws/python3'
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | head -c 1) -lt 3
